@@ -1,0 +1,559 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dark",
+				"darkblue"
+			],
+			[
+				"pa",
+				"pageXOffset"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"all",
+				"all_the_cool_cats"
+			],
+			[
+				"get_temp",
+				"get_template_directory_uri"
+			],
+			[
+				"site",
+				"site_description"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"function",
+				"function_exists"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/layout.scss",
+			"settings":
+			{
+				"buffer_size": 3801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/modules.scss",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/base.scss",
+			"settings":
+			{
+				"buffer_size": 940,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "$lightgray      : #819090;\n$gray           : #708284;\n$mediumgray     : #536870;\n$darkgray       : #475B62;\n$darkblue       : #0A2933;\n$darkerblue     : #042029;\n$paleryellow    : #FCF4DC;\n$paleyellow     : #EAE3CB;\n$yellow         : #A57706;\n$orange         : #BD3613;\n$blue           : #2176C7;\n$cyan           : #259286;\n$green          : #738A05;\n\n$font-primary: Merriweather, serif;\n$font-secondary: Bree Serif, serif;\n\n$default-border-radius: 3px;",
+			"file": "components/sass/variables.scss",
+			"file_size": 535,
+			"file_write_time": 1389906647000000,
+			"settings":
+			{
+				"buffer_size": 453,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Chrome_Preview.sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jamiejones/Sites/bytelion/gruntfile.js",
+		"/Users/jamiejones/Desktop/sassycompas/gruntfile.js",
+		"/Users/jamiejones/Sites/bytelion/config.rb",
+		"/Users/jamiejones/Sites/bytelion/package.json",
+		"/Users/jamiejones/Sites/bytelion/untitled",
+		"/Users/jamiejones/Sites/bytelion/index.html",
+		"/Users/jamiejones/Desktop/sassycompas/_/components/sass/styles.scss",
+		"/Users/jamiejones/Desktop/sassycompas/index.html",
+		"/Users/jamiejones/Desktop/sassycompas/package.json",
+		"/Users/jamiejones/Desktop/sassycompas/css/layout.css",
+		"/Users/jamiejones/Desktop/sassycompas/_/components/js/script.js",
+		"/Users/jamiejones/Desktop/sassycompas/_/components/js/other.js",
+		"/Users/jamiejones/Desktop/sassycompas/config.rb",
+		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/jamiejones/Desktop/DOM_javascript/_/css/sassDemo.scss.css",
+		"/Users/jamiejones/Desktop/DOM_javascript/_/css/sassDemo.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#0/style.css",
+		"/Users/jamiejones/.git-completion.bash",
+		"/Users/jamiejones/.bash_profile",
+		"/Users/jamiejones/.bash-profile",
+		"/Users/jamiejones/.bashrc",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width_og_version/index.html",
+		"/Users/jamiejones/.gitignore_global",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width_og_version/.gitignore",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width_og_version/junk3.html",
+		"/Users/jamiejones/Desktop/DOM_javascript/index-new.html",
+		"/Users/jamiejones/Desktop/DOM_javascript/_/js/myscriptDOM.js",
+		"/Users/jamiejones/Documents/git_training/file-to-delete-02.html",
+		"/Users/jamiejones/Documents/git_training/.gitignore",
+		"/Users/jamiejones/Documents/git_training/third_file.txt",
+		"/Users/jamiejones/Desktop/wp_hixson.sql",
+		"/Users/jamiejones/Desktop/DOM_javascript/_/css/style.css",
+		"/Users/jamiejones/Desktop/DOM_javascript/js/script.js",
+		"/Users/jamiejones/Desktop/sassycompas/_/css/styles.css",
+		"/Users/jamiejones/Desktop/sassycompas/_/js/script.js",
+		"/Users/jamiejones/Desktop/sassycompas/.gitignore",
+		"/Users/jamiejones/Desktop/sassycompas/_/css/style.css",
+		"/Users/jamiejones/Desktop/sassycompas/styles.css",
+		"/Users/jamiejones/Desktop/sassycompas/untitled",
+		"/etc/hosts",
+		"/etc/apache2/extra/httpd-vhosts.conf",
+		"/private/etc/apache2/httpd.conf",
+		"/Users/jamiejones/Desktop/test.html",
+		"/Users/jamiejones/Desktop/style.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#35/layout.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#18/style.css",
+		"/Users/jamiejones/Sites/franklin copy/wp-content/themes/franklin_theme/style.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#17/style.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#16/style.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#12/style.css",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#8/footer.php",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#7/style.css",
+		"/Users/jamiejones/Sites/franklin/wp-content/themes/franklin_theme/functions.php",
+		"/Users/jamiejones/Sites/jamiepjones-wp/wp-content/themes/wpbootstrap/functions.php",
+		"/etc/apache2/httpd.conf",
+		"/private/etc/apache2/users/jamiejones.conf",
+		"/Users/jamiejones/httpd.conf",
+		"/usr/local/mysql-5.6.14-osx10.7-x86_64/bin/httpd.conf",
+		"/Users/jamiejones/Documents/index.html",
+		"/Users/jamiejones/Sites/franklin/.htaccess",
+		"/Users/jamiejones/Desktop/snazzy-maps-example-subtle-grayscale-style.html",
+		"/Users/jamiejones/Sites/hixson/wp-config.php",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/ldness.html",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/everythingmaternal.html",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/index.html",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/ketchum.html",
+		"/TruBlu_Work/Franklin/contact.html",
+		"/Users/jamiejones/Sites/franklin/wp-content/themes/enfold/css/base.css",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/wpbootstrap/functions.php",
+		"/Users/jamiejones/Desktop/themeforest-4519990-enfold-responsive-multipurpose-theme/enfold/css/grid.css",
+		"/Users/jamiejones/Desktop/themeforest-4519990-enfold-responsive-multipurpose-theme/enfold/style.css",
+		"/Applications/MAMP/conf/apache/httpd.conf",
+		"/Users/jamiejones/Desktop/form.html",
+		"/Users/jamiejones/Desktop/sidebar-right.php",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#2/sidebar-right.php",
+		"/Users/jamiejones/Desktop/index.php",
+		"/Users/jamiejones/Desktop/hisxon.sql",
+		"/Users/jamiejones/Desktop/codiqa/index.html",
+		"/Users/jamiejones/Desktop/phonegap-2.8.0/lib/ios/bin/books/www/js/codiqa.ext.min.js",
+		"/Users/jamiejones/Desktop/codiqa/02-read.html",
+		"/Users/jamiejones/Sites/hixson/wp-content/themes/attitude/library/functions/custom-header.php",
+		"/Users/jamiejones/Sites/hixson/wp-content/themes/attitude/header.php",
+		"/Users/jamiejones/Sites/hixson/wp-content/themes/attitude/library/structure/header-extensions.php",
+		"/Users/jamiejones/Sites/hixson/wp-content/themes/attitude/index.php",
+		"/untitled.html",
+		"/Users/jamiejones/Desktop/issues.html",
+		"/Users/jamiejones/Desktop/responsive-nav/index.html",
+		"/Users/jamiejones/Desktop/responsive-nav/css/main.css",
+		"/Users/jamiejones/Desktop/dist/index.html",
+		"/Users/jamiejones/Desktop/nav.html",
+		"/Users/jamiejones/Desktop/source-codes/script.js",
+		"/Users/jamiejones/Sites/johnlaferla-2/home.html",
+		"/Users/jamiejones/Sites/style.css",
+		"/Users/jamiejones/Sites/johnlaferla-51ba3d5478c2722361000002/_columns_2.html",
+		"/Users/jamiejones/Sites/johnlaferla-51ba3d5478c2722361000002/_nav.html",
+		"/Users/jamiejones/Sites/johnlaferla-51ba3d5478c2722361000002/layout.html",
+		"/Users/jamiejones/Sites/johnlaferla-51ba3d5478c2722361000002/tablet-and-desktop.scss",
+		"/Users/jamiejones/Sites/johnlaferla-51ba3d5478c2722361000002/theme.scss",
+		"/Users/jamiejones/Sites/johnlaferla-51ba3d5478c2722361000002/responsive.svg",
+		"/Users/jamiejones/Desktop/sidebar.php",
+		"/Users/jamiejones/Desktop/header.php",
+		"/Users/jamiejones/Desktop/sidebar_.php",
+		"/Users/jamiejones/Desktop/phptut.php",
+		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/jamiejones/Desktop/script.js",
+		"/Users/jamiejones/Desktop/page.html",
+		"/Users/jamiejones/Desktop/bootstrap-master/docs/base-css.html",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/about.html",
+		"/Users/jamiejones/Desktop/svg_tutorial-master/svg_shapes.html",
+		"/Users/jamiejones/Desktop/svg_tutorial-master/svg_polygon.html",
+		"/Users/jamiejones/Desktop/svg_tutorial-master/canvas.html",
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#2/home.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/wpbootstrap/page.php",
+		"/Users/jamiejones/Sites/jamie_jones_studios/bootstrap-bare/index-new.html",
+		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/moranbrochure.html",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/shape/search.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/shape/archive.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/template-blog.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/functions.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/header.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/functions.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/index.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/inc/template-tags.php",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/aside.php",
+		"/Users/jamiejones/Desktop/bootstrap/css/bootstrap.css",
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/wpbootstrap/front-page.php",
+		"/Users/jamiejones/Desktop/twitter-bootstrap-37d0a30/docs/getting-started.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"socialmedia",
+			"social",
+			"hero",
+			"__git_ps1",
+			"width",
+			"height",
+			"bkg.png",
+			"bkg",
+			"IfDefine",
+			"secondary",
+			"entry-content",
+			"d42820",
+			"vhosts\nhttpd-vhosts.conf",
+			"\nhttpd-vhosts.conf",
+			"\nInclude /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+			"ADDITIONAL/PATH",
+			"YOURDOMAIN",
+			"textPurple",
+			"div",
+			"http://hixson/",
+			"slider",
+			"attitude_before",
+			"attitude_before_main_container",
+			"slider",
+			"improved",
+			"head",
+			"Head",
+			"head",
+			"Head",
+			"head",
+			">\n",
+			">",
+			"main",
+			"logo",
+			"main",
+			"header-container",
+			"width-container",
+			"slid",
+			"theme",
+			"header",
+			"head",
+			"\n",
+			"weight",
+			";\n",
+			"thumbnail",
+			"feature01",
+			"panel",
+			"btn",
+			"container-fl",
+			"container-fluid",
+			"container",
+			"../assets/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"CommResources",
+			"p",
+			"http://sheilahixson.trublupolitics.com/",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1251,
+								1251
+							],
+							[
+								1372,
+								1372
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "components/sass/layout.scss",
+					"settings":
+					{
+						"buffer_size": 3801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1365,
+								1367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 799.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "components/sass/modules.scss",
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "components/sass/base.scss",
+					"settings":
+					{
+						"buffer_size": 940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/sass/variables.scss",
+					"settings":
+					{
+						"buffer_size": 453,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								269,
+								269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 185.0,
+	"status_bar_visible": true
+}

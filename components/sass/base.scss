@@ -1,60 +1,72 @@
-@import url('http://fonts.googleapis.com/css?family=Merriweather');
-@import url('http://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic');
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic');
+@import url('http://fonts.googleapis.com/css?family=Amatic+SC:400,700');
 @import url('http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
 
 body {
 	font-family: $font-primary;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	line-height: 160%;
-	background: $paleyellow;
-	color: $darkblue;
+	background: $lightgray image-url("misc/bkg_concrete-grey.jpg");
+	color: $default;
 }
 
-#{headings()} {
-	font-family: $font-secondary;
-	font-weight: normal;
-	color: $darkgray;
-	@include text-shadow($paleryellow 1px 1px);
-}
+
 
 h1 {
-	font-size: 2.2rem;
-	color: lighten($darkblue, 25);
+	font-family: $font-primary;
+	font-style: italic;
+	color: $green;
+	font-size: 5rem;
+	line-height: 5rem;
 	margin-bottom: .4rem;
-	border-bottom: 1px solid $lightgray;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 h2 {
-	font-size: 1.5rem;
+	font-family: $font-primary;
+	font-style: italic;
+	font-size: 5rem;
 	line-height: 100%;
 	margin: 20px 0 0 0;
-	color: $orange;
+	color: $green;
+	margin-bottom: .6rem;
 }
 
 h3 {
-	font-size: 1.8rem;
-	line-height: 60%;
-	color: $orange;
+	font-family: $font-primary;
+	font-style: italic;
+	font-size: 1.4rem;
+	line-height: 120%;
+	color: $green;
+	padding: 1em 0 4em;
 }
 
 a {
 	text-decoration: underline;
-	color: $mediumgray;
+	color: $default;
 	&:hover {
 		color: $orange;
 	}
 }
 
 p {
+	line-height: 180%;
 	margin-bottom: 10px;
+	font-weight: 400;
 }
 
-.small {
-	font-size: 1rem;
-	color: $blue;
+.nav {
+	font-family: $font-nav;
+	font-size: 1.4rem;
 }
 
+.introhead {
+	font-family: $font-secondary;
+	font-style: normal;
+	font-weight: 300;
+	color: $default;
+}
 
 
 

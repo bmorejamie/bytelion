@@ -1,11 +1,9 @@
 /*
 Syntax error: Undefined variable: "$font-primary".
-        on line 6 of /Users/jamiejones/Desktop/sassycompas/_/components/sass/base.scss
-
-1: /Users/jamiejones/Desktop/sassycompas/_/components/sass/base.scss
+        on line 7 of /Users/jamiejones/Sites/bytelion/components/sass/base.scss
 
 Backtrace:
-/Users/jamiejones/Desktop/sassycompas/_/components/sass/base.scss:6
+/Users/jamiejones/Sites/bytelion/components/sass/base.scss:7
 /Users/jamiejones/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/script/variable.rb:49:in `_perform'
 /Users/jamiejones/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/script/node.rb:40:in `perform'
 /Users/jamiejones/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -62,4 +60,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$font-primary\".\A         on line 6 of /Users/jamiejones/Desktop/sassycompas/_/components/sass/base.scss\A \A 1: /Users/jamiejones/Desktop/sassycompas/_/components/sass/base.scss"; }
+  content: "Syntax error: Undefined variable: \"$font-primary\".\A         on line 7 of /Users/jamiejones/Sites/bytelion/components/sass/base.scss"; }

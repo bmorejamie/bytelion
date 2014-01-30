@@ -1,11 +1,11 @@
 /*
 Syntax error: Undefined mixin 'border-box-sizing'.
-        on line 7 of /Users/jamiejones/Desktop/sassycompas/_/components/sass/layout.scss, in `border-box-sizing'
-        from line 7 of /Users/jamiejones/Desktop/sassycompas/_/components/sass/layout.scss
+        on line 7 of /Users/jamiejones/Sites/bytelion/components/sass/layout.scss, in `border-box-sizing'
+        from line 7 of /Users/jamiejones/Sites/bytelion/components/sass/layout.scss
 
 Backtrace:
-/Users/jamiejones/Desktop/sassycompas/_/components/sass/layout.scss:7:in `border-box-sizing'
-/Users/jamiejones/Desktop/sassycompas/_/components/sass/layout.scss:7
+/Users/jamiejones/Sites/bytelion/components/sass/layout.scss:7:in `border-box-sizing'
+/Users/jamiejones/Sites/bytelion/components/sass/layout.scss:7
 /Users/jamiejones/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
 /Users/jamiejones/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/base.rb:37:in `visit'
 /Users/jamiejones/.rvm/gems/ruby-2.0.0-p247/gems/sass-3.2.10/lib/sass/tree/visitors/perform.rb:100:in `visit'
@@ -50,4 +50,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'border-box-sizing'.\A         on line 7 of /Users/jamiejones/Desktop/sassycompas/_/components/sass/layout.scss, in `border-box-sizing'\A         from line 7 of /Users/jamiejones/Desktop/sassycompas/_/components/sass/layout.scss"; }
+  content: "Syntax error: Undefined mixin 'border-box-sizing'.\A         on line 7 of /Users/jamiejones/Sites/bytelion/components/sass/layout.scss, in `border-box-sizing'\A         from line 7 of /Users/jamiejones/Sites/bytelion/components/sass/layout.scss"; }
