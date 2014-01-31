@@ -170,41 +170,49 @@ p {
   clear: both;
 }
 
+/* line 27, ../components/sass/layout.scss */
+.slide {
+  width: 100%;
+}
+
 @media (min-width: 45em) {
-  /* line 28, ../components/sass/layout.scss */
+  /* line 32, ../components/sass/layout.scss */
   .secondary {
     width: 40.84507%;
     float: right;
     margin-right: 0;
     font-size: 1.1rem;
   }
-  /* line 32, ../components/sass/layout.scss */
+  /* line 36, ../components/sass/layout.scss */
   .secondary h1 {
     font-size: 1.8rem;
     color: #ff4c00 v;
   }
 }
 
-/* line 41, ../components/sass/layout.scss */
+/* line 45, ../components/sass/layout.scss */
 #fixedtop {
   background: #5c5c5d url('../images/misc/bkg_concrete-grey.jpg?1390427448');
   height: 6em;
   width: 100%;
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
 }
 
-/* line 48, ../components/sass/layout.scss */
+/* line 55, ../components/sass/layout.scss */
 header .branding {
   float: left;
   padding: 1em;
 }
-/* line 54, ../components/sass/layout.scss */
+/* line 61, ../components/sass/layout.scss */
 header .navigation {
   float: right;
   padding-top: 2em;
 }
 @media (min-width: 30em) {
-  /* line 57, ../components/sass/layout.scss */
+  /* line 64, ../components/sass/layout.scss */
   header .navigation ul.nav {
     margin: 0;
     padding: 0;
@@ -240,7 +248,7 @@ header .navigation {
     padding-right: 0;
   }
 }
-/* line 62, ../components/sass/layout.scss */
+/* line 69, ../components/sass/layout.scss */
 header .navigation ul.nav li a {
   -webkit-transition: all 0.25s ease-out;
   -moz-transition: all 0.25s ease-out;
@@ -251,53 +259,53 @@ header .navigation ul.nav li a {
   padding: 5px 10px;
   color: white;
 }
-/* line 69, ../components/sass/layout.scss */
+/* line 76, ../components/sass/layout.scss */
 header .navigation ul.nav li a:hover {
   color: #c4e86b;
 }
 
-/* line 80, ../components/sass/layout.scss */
+/* line 87, ../components/sass/layout.scss */
 #how {
   background: url('../images/misc/bkg_concrete-sand.jpg?1390426555');
 }
 
-/* line 83, ../components/sass/layout.scss */
+/* line 90, ../components/sass/layout.scss */
 #listen {
   background: url('../images/misc/bkg_wood.jpg?1390425911');
 }
 
-/* line 89, ../components/sass/layout.scss */
+/* line 96, ../components/sass/layout.scss */
 #launch {
   background: url('../images/misc/bkg_concrete-sand.jpg?1390426555');
 }
 
-/* line 93, ../components/sass/layout.scss */
+/* line 100, ../components/sass/layout.scss */
 .left_main {
   width: 49.29577%;
   float: left;
   margin-right: 1.40845%;
   display: inline;
 }
-/* line 97, ../components/sass/layout.scss */
+/* line 104, ../components/sass/layout.scss */
 .left_main img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
 }
-/* line 103, ../components/sass/layout.scss */
+/* line 110, ../components/sass/layout.scss */
 .left_main h1 {
   padding-top: 1.4em;
 }
-/* line 106, ../components/sass/layout.scss */
+/* line 113, ../components/sass/layout.scss */
 .left_main h2 {
   padding-top: 1.4em;
 }
-/* line 109, ../components/sass/layout.scss */
+/* line 116, ../components/sass/layout.scss */
 .left_main p {
   padding-left: .5em;
 }
 
-/* line 114, ../components/sass/layout.scss */
+/* line 121, ../components/sass/layout.scss */
 .right_main {
   width: 49.29577%;
   float: right;
@@ -305,48 +313,65 @@ header .navigation ul.nav li a:hover {
   *margin-left: -1em;
   display: inline;
 }
-/* line 117, ../components/sass/layout.scss */
+/* line 124, ../components/sass/layout.scss */
 .right_main img {
   display: block;
   max-width: 100%;
   margin: 0 auto;
 }
-/* line 122, ../components/sass/layout.scss */
+/* line 129, ../components/sass/layout.scss */
 .right_main h1 {
   padding-top: 1.4em;
 }
-/* line 125, ../components/sass/layout.scss */
+/* line 132, ../components/sass/layout.scss */
 .right_main h2 {
   padding-top: 1.4em;
 }
-/* line 128, ../components/sass/layout.scss */
+/* line 135, ../components/sass/layout.scss */
 .right_main p {
   padding-left: .5em;
 }
 
-/* line 134, ../components/sass/layout.scss */
+/* line 141, ../components/sass/layout.scss */
 .ad-space {
   padding-top: 4em;
   padding-bottom: 4em;
   overflow: hidden;
 }
 
-/* line 140, ../components/sass/layout.scss */
+/* line 147, ../components/sass/layout.scss */
 .left-head-wrap {
   padding-left: 2em;
 }
 
-/* line 143, ../components/sass/layout.scss */
+/* line 150, ../components/sass/layout.scss */
 .right-head-wrap {
   padding-right: 2em;
 }
 
-/* line 149, ../components/sass/layout.scss */
+/* line 154, ../components/sass/layout.scss */
+.scroll {
+  margin: 0 auto;
+  padding: 2em 0 .5em;
+  text-align: center;
+  font-family: Amatic SC, sans-serif;
+  font-size: 1.4rem;
+}
+/* line 160, ../components/sass/layout.scss */
+.scroll p {
+  margin-bottom: -5px;
+}
+/* line 163, ../components/sass/layout.scss */
+.scroll a {
+  text-decoration: none;
+}
+
+/* line 170, ../components/sass/layout.scss */
 #services {
   background: url('../images/misc/bkg_concrete.jpg?1390424635');
 }
 
-/* line 152, ../components/sass/layout.scss */
+/* line 173, ../components/sass/layout.scss */
 .servicesimg {
   position: relative;
   display: block;
@@ -354,7 +379,7 @@ header .navigation ul.nav li a:hover {
   padding: 4em 0;
 }
 
-/* line 159, ../components/sass/layout.scss */
+/* line 180, ../components/sass/layout.scss */
 .services_head {
   text-align: center;
   position: absolute;
@@ -363,13 +388,13 @@ header .navigation ul.nav li a:hover {
   width: 100%;
 }
 
-/* line 166, ../components/sass/layout.scss */
+/* line 187, ../components/sass/layout.scss */
 .services_list {
   text-align: center;
   padding-bottom: 4em;
 }
 
-/* line 171, ../components/sass/layout.scss */
+/* line 192, ../components/sass/layout.scss */
 #prototyping {
   width: 32.39437%;
   float: left;
@@ -377,7 +402,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 174, ../components/sass/layout.scss */
+/* line 195, ../components/sass/layout.scss */
 #webapp {
   width: 32.39437%;
   float: left;
@@ -385,7 +410,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 177, ../components/sass/layout.scss */
+/* line 198, ../components/sass/layout.scss */
 #mobile {
   width: 32.39437%;
   float: right;
@@ -394,7 +419,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 180, ../components/sass/layout.scss */
+/* line 201, ../components/sass/layout.scss */
 #ux {
   width: 32.39437%;
   float: left;
@@ -402,7 +427,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 183, ../components/sass/layout.scss */
+/* line 204, ../components/sass/layout.scss */
 #eval {
   width: 32.39437%;
   float: left;
@@ -410,7 +435,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 186, ../components/sass/layout.scss */
+/* line 207, ../components/sass/layout.scss */
 #cloud {
   width: 32.39437%;
   float: right;
@@ -419,13 +444,14 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 192, ../components/sass/layout.scss */
+/* line 213, ../components/sass/layout.scss */
 footer {
   color: white;
   background: #1a1a1a;
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 100px;
+  max-height: 100%;
 }
 
 /* line 5, ../components/sass/modules.scss */

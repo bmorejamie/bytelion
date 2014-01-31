@@ -24,6 +24,10 @@ $large			: 60em;
 	
 } //content layout
 
+.slide {
+	width: 100%;
+}
+
 //secondary ------------------------------------------------------------
 .secondary {
 	@include at-breakpoint($medium) {
@@ -43,6 +47,9 @@ $large			: 60em;
 	height: 6em;
 	width: 100%;
 	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
 }
 header {
 	.branding {
@@ -144,6 +151,20 @@ header {
 	padding-right: 2em;
 }
 
+.scroll {
+	margin: 0 auto;
+	padding: 2em 0 .5em;
+	text-align: center;
+	font-family: $font-nav;
+	font-size: 1.4rem;
+	p {
+		margin-bottom: -5px;
+	}
+	a {
+		text-decoration: none;
+	}
+}
+
 // Our services styles ----------------------------------------------
 
 #services {
@@ -195,6 +216,7 @@ footer {
 	margin-top: 20px;
 	padding-top: 20px;
 	padding-bottom: 100px;
+	max-height: 100%;
 }
 
 
