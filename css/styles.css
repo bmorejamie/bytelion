@@ -266,7 +266,7 @@ header .navigation ul.nav li a:hover {
 
 /* line 87, ../components/sass/layout.scss */
 #how {
-  background: url('../images/misc/bkg_concrete-sand.jpg?1390426555');
+  background: url('../images/misc/bkg_concrete.jpg?1390424635');
 }
 
 /* line 90, ../components/sass/layout.scss */
@@ -279,8 +279,15 @@ header .navigation ul.nav li a:hover {
   background: url('../images/misc/bkg_concrete-sand.jpg?1390426555');
 }
 
-/* line 101, ../components/sass/layout.scss */
+/* line 100, ../components/sass/layout.scss */
+.left_main {
+  text-align: center;
+}
+/* line 102, ../components/sass/layout.scss */
 .left_main img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */
   display: block;
   max-width: 100%;
   margin: 0 auto;
@@ -291,8 +298,9 @@ header .navigation ul.nav li a:hover {
     width: 49.29577%;
     float: left;
     margin-right: 1.40845%;
+    text-align: left;
   }
-  /* line 108, ../components/sass/layout.scss */
+  /* line 112, ../components/sass/layout.scss */
   .left_main img {
     display: block;
     max-width: 100%;
@@ -300,42 +308,54 @@ header .navigation ul.nav li a:hover {
   }
 }
 @media (min-width: 45em) and (min-width: 60em) {
-  /* line 108, ../components/sass/layout.scss */
+  /* line 112, ../components/sass/layout.scss */
   .left_main img {
     margin: 3em auto 0;
   }
 }
-/* line 118, ../components/sass/layout.scss */
+/* line 122, ../components/sass/layout.scss */
 .left_main h1 {
-  padding-top: 1.4em;
+  padding-top: 0;
+  margin-top: -3em;
 }
-/* line 121, ../components/sass/layout.scss */
+@media (min-width: 45em) {
+  /* line 122, ../components/sass/layout.scss */
+  .left_main h1 {
+    padding-top: 1.4em;
+    margin-top: 0;
+  }
+}
+/* line 130, ../components/sass/layout.scss */
 .left_main h2 {
   padding-top: 1.4em;
 }
-/* line 124, ../components/sass/layout.scss */
+/* line 133, ../components/sass/layout.scss */
 .left_main p {
   padding-left: .5em;
 }
 
-/* line 129, ../components/sass/layout.scss */
+/* line 138, ../components/sass/layout.scss */
 .right_main {
   text-align: center;
 }
-/* line 131, ../components/sass/layout.scss */
+/* line 140, ../components/sass/layout.scss */
 .right_main img {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  /* For IE8 and earlier */
   display: block;
   max-width: 100%;
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 129, ../components/sass/layout.scss */
+  /* line 138, ../components/sass/layout.scss */
   .right_main {
     width: 49.29577%;
-    float: left;
-    margin-right: 1.40845%;
+    float: right;
+    margin-right: 0;
+    text-align: left;
   }
-  /* line 138, ../components/sass/layout.scss */
+  /* line 150, ../components/sass/layout.scss */
   .right_main img {
     display: block;
     max-width: 100%;
@@ -343,42 +363,69 @@ header .navigation ul.nav li a:hover {
   }
 }
 @media (min-width: 45em) and (min-width: 60em) {
-  /* line 138, ../components/sass/layout.scss */
+  /* line 150, ../components/sass/layout.scss */
   .right_main img {
     margin: 3em auto 0;
   }
 }
-/* line 148, ../components/sass/layout.scss */
+/* line 160, ../components/sass/layout.scss */
 .right_main h1 {
-  padding-top: 1.4em;
+  padding-top: 0;
+  margin-top: -3em;
 }
-/* line 151, ../components/sass/layout.scss */
+@media (min-width: 45em) {
+  /* line 160, ../components/sass/layout.scss */
+  .right_main h1 {
+    padding-top: 1.4em;
+    margin-top: 0;
+  }
+}
+/* line 168, ../components/sass/layout.scss */
 .right_main h2 {
   padding-top: 1.4em;
 }
-/* line 154, ../components/sass/layout.scss */
+/* line 171, ../components/sass/layout.scss */
 .right_main p {
   padding-left: .5em;
 }
 
-/* line 160, ../components/sass/layout.scss */
+/* line 177, ../components/sass/layout.scss */
 .ad-space {
   padding-top: 4em;
   padding-bottom: 4em;
   overflow: hidden;
 }
-
-/* line 166, ../components/sass/layout.scss */
-.left-head-wrap {
-  padding-left: 2em;
+/* line 2, ../components/sass/mixins.scss */
+.ad-space:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-/* line 169, ../components/sass/layout.scss */
+/* line 184, ../components/sass/layout.scss */
+.left-head-wrap {
+  padding: 0;
+}
+@media (min-width: 45em) {
+  /* line 184, ../components/sass/layout.scss */
+  .left-head-wrap {
+    padding-left: 2em;
+  }
+}
+
+/* line 190, ../components/sass/layout.scss */
 .right-head-wrap {
   padding-right: 2em;
 }
 
-/* line 173, ../components/sass/layout.scss */
+@media (min-width: 60em) {
+  /* line 193, ../components/sass/layout.scss */
+  img#lightbulb {
+    margin-left: 2em;
+  }
+}
+
+/* line 202, ../components/sass/layout.scss */
 .scroll {
   margin: 0 auto;
   padding: 2em 0 .5em;
@@ -386,43 +433,29 @@ header .navigation ul.nav li a:hover {
   font-family: Amatic SC, sans-serif;
   font-size: 1.4rem;
 }
-/* line 179, ../components/sass/layout.scss */
+/* line 208, ../components/sass/layout.scss */
 .scroll p {
   margin-bottom: -5px;
 }
-/* line 182, ../components/sass/layout.scss */
+/* line 211, ../components/sass/layout.scss */
 .scroll a {
   text-decoration: none;
 }
 
-/* line 189, ../components/sass/layout.scss */
+/* line 218, ../components/sass/layout.scss */
 #services {
   background: url('../images/misc/bkg_concrete.jpg?1390424635');
 }
 
-/* line 192, ../components/sass/layout.scss */
+/* line 221, ../components/sass/layout.scss */
 .servicesimg {
   position: relative;
   display: block;
   text-align: center;
   padding: 4em 0;
 }
-@media (min-width: 45em) {
-  /* line 192, ../components/sass/layout.scss */
-  .servicesimg {
-    width: 49.29577%;
-    float: left;
-    margin-right: 1.40845%;
-  }
-  /* line 199, ../components/sass/layout.scss */
-  .servicesimg img {
-    display: block;
-    max-width: 100%;
-    margin: 0 auto;
-  }
-}
 
-/* line 207, ../components/sass/layout.scss */
+/* line 228, ../components/sass/layout.scss */
 .services_head {
   text-align: center;
   position: absolute;
@@ -430,20 +463,14 @@ header .navigation ul.nav li a:hover {
   left: 0;
   width: 100%;
 }
-@media (min-width: 45em) {
-  /* line 207, ../components/sass/layout.scss */
-  .services_head {
-    left: 100%;
-  }
-}
 
-/* line 217, ../components/sass/layout.scss */
+/* line 236, ../components/sass/layout.scss */
 .services_list {
   text-align: center;
   padding-bottom: 4em;
 }
 
-/* line 222, ../components/sass/layout.scss */
+/* line 241, ../components/sass/layout.scss */
 #prototyping {
   width: 32.39437%;
   float: left;
@@ -451,7 +478,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 225, ../components/sass/layout.scss */
+/* line 244, ../components/sass/layout.scss */
 #webapp {
   width: 32.39437%;
   float: left;
@@ -459,7 +486,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 228, ../components/sass/layout.scss */
+/* line 247, ../components/sass/layout.scss */
 #mobile {
   width: 32.39437%;
   float: right;
@@ -468,7 +495,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 231, ../components/sass/layout.scss */
+/* line 250, ../components/sass/layout.scss */
 #ux {
   width: 32.39437%;
   float: left;
@@ -476,7 +503,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 234, ../components/sass/layout.scss */
+/* line 253, ../components/sass/layout.scss */
 #eval {
   width: 32.39437%;
   float: left;
@@ -484,7 +511,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 237, ../components/sass/layout.scss */
+/* line 256, ../components/sass/layout.scss */
 #cloud {
   width: 32.39437%;
   float: right;
@@ -493,7 +520,7 @@ header .navigation ul.nav li a:hover {
   display: inline;
 }
 
-/* line 243, ../components/sass/layout.scss */
+/* line 262, ../components/sass/layout.scss */
 footer {
   color: white;
   background: #1a1a1a;

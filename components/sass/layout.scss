@@ -85,7 +85,7 @@ header {
 // main content styles ----------------------------------------------
 
 #how {
-	background: image-url("misc/bkg_concrete-sand.jpg");
+	background: image-url("misc/bkg_concrete.jpg");
 }
 #listen {
 	background: image-url("misc/bkg_wood.jpg");
@@ -98,13 +98,17 @@ header {
 }
 
 .left_main {
+	text-align: center;
 	img {
+		opacity:0.4;
+		filter:alpha(opacity=40); /* For IE8 and earlier */
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
 	}
 	@include at-breakpoint($medium) {
 		@include span-columns(6, 12);
+		text-align: left;
 		img {
 			display: block;
 			max-width: 100%;
@@ -116,7 +120,12 @@ header {
 		}
 	}
 	h1 {
+		padding-top: 0;
+		margin-top: -3em;
+		@include at-breakpoint($medium) {
 		padding-top: 1.4em;
+		margin-top: 0;
+		}
 	}
 	h2 {
 		padding-top: 1.4em;
@@ -129,12 +138,15 @@ header {
 .right_main {
 	text-align: center;
 	img {
+		opacity:0.4;
+		filter:alpha(opacity=40); /* For IE8 and earlier */
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
 	}
 	@include at-breakpoint($medium) {
-		@include span-columns(6, 12);
+		@include span-columns(6 omega, 12);
+		text-align: left;
 		img {
 			display: block;
 			max-width: 100%;
@@ -146,7 +158,12 @@ header {
 		}
 	}
 	h1 {
+		padding-top: 0;
+		margin-top: -3em;
+		@include at-breakpoint($medium) {
 		padding-top: 1.4em;
+		margin-top: 0;
+		}
 	}
 	h2 {
 		padding-top: 1.4em;
@@ -158,16 +175,28 @@ header {
 }
 
 .ad-space {
+	@include clearfix;
 	padding-top: 4em;
 	padding-bottom: 4em;
 	overflow: hidden;
 }
 
 .left-head-wrap {
+	padding: 0;
+	@include at-breakpoint($medium) {
 	padding-left: 2em;
+	}
 }
 .right-head-wrap {
 	padding-right: 2em;
+}
+img#lightbulb {
+	@include at-breakpoint($large) {
+		margin-left: 2em;
+	}
+
+;	
+	
 }
 
 .scroll {
@@ -193,15 +222,7 @@ header {
 	position: relative;
 	display: block;
 	text-align: center;
-	padding: 4em 0;
-	@include at-breakpoint($medium) {
-		@include span-columns(6, 12);
-			img {
-				display: block;
-				max-width: 100%;
-				margin: 0 auto;
-			}
-	}
+	padding: 4em 0;	
 }
 
 .services_head {
@@ -210,10 +231,8 @@ header {
 	top: 200px; 
 	left: 0; 
 	width: 100%;
-	@include at-breakpoint($medium) {
-		left: 100%;
-	} 
 }
+
 .services_list {
 	text-align: center;
 	padding-bottom: 4em;
