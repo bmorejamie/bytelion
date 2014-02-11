@@ -98,15 +98,23 @@ header {
 }
 
 .left_main {
-	@include at-breakpoint($medium);
-	@include span-columns(6, 12);
-
 	img {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
 	}
+	@include at-breakpoint($medium) {
+		@include span-columns(6, 12);
+		img {
+			display: block;
+			max-width: 100%;
+			margin: 5em auto 0;
+				@include at-breakpoint($large) {
+					margin: 3em auto 0;
+				}
 
+		}
+	}
 	h1 {
 		padding-top: 1.4em;
 	}
@@ -119,12 +127,23 @@ header {
 
 }
 .right_main {
-	@include at-breakpoint($medium);
-	@include span-columns(6 omega, 12);
+	text-align: center;
 	img {
 		display: block;
 		max-width: 100%;
 		margin: 0 auto;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns(6, 12);
+		img {
+			display: block;
+			max-width: 100%;
+			margin: 5em auto 0;
+				@include at-breakpoint($large) {
+					margin: 3em auto 0;
+				}
+
+		}
 	}
 	h1 {
 		padding-top: 1.4em;
@@ -175,6 +194,14 @@ header {
 	display: block;
 	text-align: center;
 	padding: 4em 0;
+	@include at-breakpoint($medium) {
+		@include span-columns(6, 12);
+			img {
+				display: block;
+				max-width: 100%;
+				margin: 0 auto;
+			}
+	}
 }
 
 .services_head {
@@ -182,7 +209,10 @@ header {
 	position: absolute;
 	top: 200px; 
 	left: 0; 
-	width: 100%; 
+	width: 100%;
+	@include at-breakpoint($medium) {
+		left: 100%;
+	} 
 }
 .services_list {
 	text-align: center;
