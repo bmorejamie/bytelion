@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 1630,
+				"buffer_size": 6975,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,15 +55,7 @@
 			"file": "components/sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 3801,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "components/sass/modules.scss",
-			"settings":
-			{
-				"buffer_size": 592,
+				"buffer_size": 4393,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,18 +63,55 @@
 			"file": "components/sass/base.scss",
 			"settings":
 			{
-				"buffer_size": 940,
+				"buffer_size": 1263,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "$lightgray      : #819090;\n$gray           : #708284;\n$mediumgray     : #536870;\n$darkgray       : #475B62;\n$darkblue       : #0A2933;\n$darkerblue     : #042029;\n$paleryellow    : #FCF4DC;\n$paleyellow     : #EAE3CB;\n$yellow         : #A57706;\n$orange         : #BD3613;\n$blue           : #2176C7;\n$cyan           : #259286;\n$green          : #738A05;\n\n$font-primary: Merriweather, serif;\n$font-secondary: Bree Serif, serif;\n\n$default-border-radius: 3px;",
 			"file": "components/sass/variables.scss",
-			"file_size": 535,
-			"file_write_time": 1389906647000000,
 			"settings":
 			{
-				"buffer_size": 453,
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/mixins.scss",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/modules.scss",
+			"settings":
+			{
+				"buffer_size": 309,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/styles.scss",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 222,
 				"line_ending": "Unix"
 			}
 		}
@@ -131,9 +160,19 @@
 	},
 	"file_history":
 	[
+		"/private/etc/hosts",
+		"/private/etc/apache2/httpd.conf",
+		"/private/etc/apache2/extra/httpd-vhosts.conf",
+		"/private/etc/apache2/extra/htpd-vhosts.conf",
+		"/private/etc/apache2/users/jamiejones.conf",
+		"/Users/jamiejones/Sites/bytelion/js/jquery.js",
+		"/Users/jamiejones/Desktop/original sass for bytelion(before screwing with responsive).scss",
+		"/Users/jamiejones/Desktop/hendrick.html",
+		"/Users/jamiejones/Sites/bytelion/config.rb",
+		"/Users/jamiejones/Sites/bytelion/components/sass/modules.scss",
+		"/Users/jamiejones/Sites/bytelion/css/styles.css",
 		"/Users/jamiejones/Sites/bytelion/gruntfile.js",
 		"/Users/jamiejones/Desktop/sassycompas/gruntfile.js",
-		"/Users/jamiejones/Sites/bytelion/config.rb",
 		"/Users/jamiejones/Sites/bytelion/package.json",
 		"/Users/jamiejones/Sites/bytelion/untitled",
 		"/Users/jamiejones/Sites/bytelion/index.html",
@@ -172,7 +211,6 @@
 		"/Users/jamiejones/Desktop/sassycompas/untitled",
 		"/etc/hosts",
 		"/etc/apache2/extra/httpd-vhosts.conf",
-		"/private/etc/apache2/httpd.conf",
 		"/Users/jamiejones/Desktop/test.html",
 		"/Users/jamiejones/Desktop/style.css",
 		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#35/layout.css",
@@ -186,7 +224,6 @@
 		"/Users/jamiejones/Sites/franklin/wp-content/themes/franklin_theme/functions.php",
 		"/Users/jamiejones/Sites/jamiepjones-wp/wp-content/themes/wpbootstrap/functions.php",
 		"/etc/apache2/httpd.conf",
-		"/private/etc/apache2/users/jamiejones.conf",
 		"/Users/jamiejones/httpd.conf",
 		"/usr/local/mysql-5.6.14-osx10.7-x86_64/bin/httpd.conf",
 		"/Users/jamiejones/Documents/index.html",
@@ -250,15 +287,7 @@
 		"/Users/jamiejones/Sites/wordpress/wp-content/themes/shape/search.php",
 		"/Users/jamiejones/Sites/wordpress/wp-content/themes/shape/archive.php",
 		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/template-blog.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/functions.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/header.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/functions.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/index.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/inc/template-tags.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/_s-master/aside.php",
-		"/Users/jamiejones/Desktop/bootstrap/css/bootstrap.css",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/wpbootstrap/front-page.php",
-		"/Users/jamiejones/Desktop/twitter-bootstrap-37d0a30/docs/getting-started.html"
+		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/functions.php"
 	],
 	"find":
 	{
@@ -277,6 +306,27 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vhosts",
+			"log",
+			"left-head",
+			"small",
+			"$medium",
+			"secondary",
+			"SCROLL",
+			"scroll",
+			"SCROLL",
+			"scroll",
+			"SCROLL",
+			"scroll",
+			"SCROLL",
+			"scroll",
+			"SCROLL",
+			"scroll",
+			"left",
+			"darkerblue",
+			"paleyellow",
+			"darkblue",
+			"paleyellow",
 			"socialmedia",
 			"social",
 			"hero",
@@ -350,7 +400,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -358,19 +408,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 1630,
+						"buffer_size": 6975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1251,
-								1251
-							],
-							[
-								1372,
-								1372
+								5146,
+								5146
 							]
 						],
 						"settings":
@@ -379,7 +425,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1990.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -389,15 +435,15 @@
 					"file": "components/sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 3801,
+						"buffer_size": 4393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1365,
-								1367
+								972,
+								972
 							]
 						],
 						"settings":
@@ -406,25 +452,25 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 799.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "components/sass/modules.scss",
+					"file": "components/sass/base.scss",
 					"settings":
 					{
-						"buffer_size": 592,
+						"buffer_size": 1263,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								262,
-								262
+								885,
+								885
 							]
 						],
 						"settings":
@@ -440,18 +486,70 @@
 				},
 				{
 					"buffer": 3,
-					"file": "components/sass/base.scss",
+					"file": "components/sass/variables.scss",
 					"settings":
 					{
-						"buffer_size": 940,
+						"buffer_size": 380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/sass/mixins.scss",
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "components/sass/modules.scss",
+					"settings":
+					{
+						"buffer_size": 309,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
 							]
 						],
 						"settings":
@@ -466,24 +564,77 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "components/sass/variables.scss",
+					"buffer": 6,
+					"file": "components/sass/styles.scss",
 					"settings":
 					{
-						"buffer_size": 453,
+						"buffer_size": 152,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								269,
-								269
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 764,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								123,
+								123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
