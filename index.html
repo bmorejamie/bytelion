@@ -17,8 +17,8 @@
 					<li><a href="#solutions" class="nav-button">Home</a></li>
 					<li><a href="#how" class="nav-button">Process</a></li>
 					<li><a href="#services" class="nav-button">Services</a></li>
-					<li><a href="#">Team</a></li>
-					<li><a href="#">Work</a></li>
+					<li><a href="#team" class="nav-button">Team</a></li>
+					<li><a href="#work" class="nav-button">Work</a></li>
 					<li><a href="">Blog</a></li>
 					<li><a href="#">Contact us</a></li>
 				</ul>
@@ -59,7 +59,7 @@
 			<div class="ad-space">
 				<div class="left_main"><img src="images/intro_art/phone.png" alt="Phone"></div>
 				<div class="right_main">
-					<div class="right-head-wrap">
+					<div class="right-head-wrap pull-up">
 						<h2>We Listen</h2>
 						<p>We listen to your needs. We talk in depth about your project and your goals. We review, make recommendations and formulate a framework for a winning lean startup strategy.</p>
 					</div>
@@ -74,7 +74,7 @@
 			<div class="ad-space">
 				<div class="right_main"><img src="images/intro_art/drill.png" alt="Drill"></div>
 				<div class="left_main">
-					<div class="left-head-wrap">
+					<div class="left-head-wrap pull-up">
 						<h2>We Build</h2>
 						<p>We start our design/prototyping phase. This includes wireframes, designs, and click-throughs. This is where look and feel is determined. Once nailed we dive into development.</p>
 					</div>
@@ -89,7 +89,7 @@
 			<div class="ad-space">
 				<div class="left_main"><img src="images/intro_art/rocket.png" alt="Rocket"></div>
 				<div class="right_main">
-					<div class="right-head-wrap">
+					<div class="right-head-wrap pull-up">
 						<h2>We Launch</h2>
 						<p>Launch. Measure. Learn. Once we reach the go live milestones, we stay by your side while we address maintenance and support as well as requested improvements by the user base.</p>
 					</div>
@@ -102,7 +102,7 @@
 	<section id="services" class="slide"><!-- begin services -->
 		<div class="layout">
 			<div class="servicesimg"><img src="images/intro_art/gears.png" alt="Our Services Gears Image">
-				<h2 class ="services_head">OurServices</h2>
+				<h2 class ="services_head">Our Services</h2>
 			</div>
 		</div>
 		<div class="layout services_list">
@@ -136,7 +136,48 @@
 			</div>
 		</div>
 	</section>
+	<section id="team" class="slide"><!-- begin team -->
+	<div class="layout">
+		<div class="servicesimg"><img src="images/intro_art/team.png" alt="Our Team">
+			<h2 class ="services_head">Our Team</h2>
+		</div>
+	</div>
+		<div class="layout services_list">
+			<div class="layout">
+				<div id="t1">
+					<img src="images/team/t1.jpg" alt="Terrance">
+				</div>
+				<div id="t2">
+					<img src="images/team/t2.jpg" alt="Tony">
+				</div>
+				<div id="t3">
+					<img src="images/team/t3.jpg" alt="Jamie">
+				</div>
+				<div id="t4">
+					<img src="images/team/t4.jpg" alt="Emiliano">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="work" class="slide"><!-- begin team -->
+	<div class="layout">
+		<div class="servicesimg"><img src="images/intro_art/jetpack.png" alt="Our Work">
+			<h2 class ="services_head">Our Work</h2>
+		</div>
+	</div>
+		<div class="layout services_list">
+			<div class="layout">
+				<div id="slider">
+					<div class="project"><img src="images/work/annapolis.png"></div>
+					<div class="info">
+						<h3>Annapolis Entrepreneurs Project</h3>
+						<p>Bytelion wanted to find a way to give back and the Annapolis Entrepreneurs Project was the perfect way. In an attempt to organize entrepreneurs from around the area, Bytelion built an amazing WordPress site that allows entrepreneurs to display personal profiles of themselves as well as tell others about their startup or entrepreneurial project they are working on. The site supports the new meetup group, The Annapolis Startup Meetup, which plans to serve as a catalyst behind building an entrepreneurial community and opening the lines of collaboration and innovation amongst the silos of entrepreneurs around the area.</p>
+					</div>
+				</div>
 
+			</div>
+		</div>
+	</section>
 	
 	<footer class="slide">
 		<section class="layout">
@@ -156,7 +197,7 @@
 	<script src="js/jquery.scrolldeck.js"></script>
 	<script src="http://localhost:35729/livereload.js"></script>
 	<script src="js/meanMenu/jquery.meanmenu.js"></script>
-		<script>
+	<script>
 	jQuery(document).ready(function () {
 	    jQuery('.layout nav').meanmenu();
 	});

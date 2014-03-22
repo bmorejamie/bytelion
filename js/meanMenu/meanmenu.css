@@ -20,7 +20,7 @@ a.meanmenu-reveal {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: #0c1923;
+	background: rgba(30, 34, 38, .9);
 	padding: 4px 0;
 	min-height: 42px;
 	z-index: 999999;
@@ -41,21 +41,21 @@ a.meanmenu-reveal {
 	line-height: 22px;
 	font-size: 1px;
 	display: block;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 700;
+	font-family: Lato, sans-serif;
+	font-weight: 100;
 }
 
 .mean-container a.meanmenu-reveal span {
 	display: block;
 	background: #fff;
-	height: 3px;
-	margin-top: 3px;
+	height: 2px;
+	margin-top: 4px;
 }
 
 .mean-container .mean-nav {
 	float: left;
 	width: 100%;
-	background: #0c1923;
+	background: rgba(30, 34, 38, .9);
 	margin-top: 44px;
 }
 
@@ -80,8 +80,8 @@ a.meanmenu-reveal {
 	margin: 0;
 	text-align: left;
 	color: #fff;
-	border-top: 1px solid #383838;
-	border-top: 1px solid rgba(255,255,255,0.5);
+	border-top: 1px solid #0a0d10;
+	border-top: 1px solid #0a0d10;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -89,8 +89,8 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li li a {
 	width: 80%;
 	padding: 1em 10%;
-	border-top: 1px solid #f1f1f1;
-	border-top: 1px solid rgba(255,255,255,0.25);
+	border-top: 1px solid rgba(30, 34, 38, .9);
+	border-top: 1px solid rgba(30, 34, 38, .9);
 	opacity: 0.75;
 	filter: alpha(opacity=75);
 	text-shadow: none !important;
@@ -119,7 +119,7 @@ a.meanmenu-reveal {
 
 .mean-container .mean-nav ul li a:hover {
 	background: #252525;
-	background: rgba(255,255,255,0.1);
+	background: rgba(40, 46, 52, .8);
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -136,7 +136,7 @@ a.meanmenu-reveal {
 	background: rgba(255,255,255,0.1);
 	border: none !important;
 	border-left: 1px solid rgba(255,255,255,0.4) !important;
-	border-bottom: 1px solid rgba(255,255,255,0.2) !important;
+	border-bottom: 1px solid  rgba(12, 25, 35, .8) !important;
 }
 
 .mean-container .mean-nav ul li a.mean-expand:hover {

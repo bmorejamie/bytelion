@@ -13,7 +13,7 @@ $large			: 60em;
 
 
 
-//layout ------------------------------------------------------------
+//layout -----------------------------------------------------------------
 .layout {
 	@include container;
 	//@include susy-grid-background;
@@ -43,7 +43,7 @@ $large			: 60em;
 
 //header ------------------------------------------------------------
 #fixedtop {
-	background: $lightgray image-url("misc/bkg_concrete-grey.jpg");
+	//background: $lightgray image-url("misc/bkg_concrete-grey.jpg");
 	height: 6em;
 	width: 100%;
 	position: fixed;
@@ -96,11 +96,17 @@ header {
 #launch {
 	background: image-url("misc/bkg_concrete-sand.jpg");
 }
+#team {
+	background: image-url("misc/bkg_wood.jpg");
+}
+#work {
+	background: image-url("misc/bkg_concrete.jpg");
+}
 
 .left_main {
 	text-align: center;
 	img {
-		opacity:0.4;
+		opacity:0.2;
 		filter:alpha(opacity=40); /* For IE8 and earlier */
 		display: block;
 		max-width: 100%;
@@ -110,8 +116,8 @@ header {
 		@include span-columns(6, 12);
 		text-align: left;
 		img {
-			display: block;
-			max-width: 100%;
+			opacity:0.4;
+			filter:alpha(opacity=40); /* For IE8 and earlier */
 			margin: 5em auto 0;
 				@include at-breakpoint($large) {
 					margin: 3em auto 0;
@@ -138,7 +144,7 @@ header {
 .right_main {
 	text-align: center;
 	img {
-		opacity:0.4;
+		opacity:0.2;
 		filter:alpha(opacity=40); /* For IE8 and earlier */
 		display: block;
 		max-width: 100%;
@@ -148,8 +154,8 @@ header {
 		@include span-columns(6 omega, 12);
 		text-align: left;
 		img {
-			display: block;
-			max-width: 100%;
+			opacity:0.4;
+			filter:alpha(opacity=40); /* For IE8 and earlier */
 			margin: 5em auto 0;
 				@include at-breakpoint($large) {
 					margin: 3em auto 0;
@@ -173,6 +179,14 @@ header {
 	}
 
 }
+.pull-up {
+	padding-top: 0;
+		margin-top: -24em;
+		@include at-breakpoint($medium) {
+		padding-top: 1.4em;
+		margin-top: 0;
+	}
+}	
 
 .ad-space {
 	@include clearfix;
@@ -222,7 +236,7 @@ img#lightbulb {
 	position: relative;
 	display: block;
 	text-align: center;
-	padding: 4em 0;	
+	padding: 4em 0 1em;	
 }
 
 .services_head {
@@ -239,24 +253,118 @@ img#lightbulb {
 }
 
 #prototyping {
-	@include span-columns (4, 12);
+	margin: 0 auto;
+	@include at-breakpoint($medium) {
+		@include span-columns (4, 12);
+		}
 }
 #webapp {
-	@include span-columns (4,12);
+	margin: 0 auto;
+	@include at-breakpoint($medium) {
+		@include span-columns (4, 12);
+		}
 }
 #mobile {
-	@include span-columns (4 omega, 12);
+	margin: 0 auto;
+	@include at-breakpoint($medium) {
+		@include span-columns (4 omega, 12);
+		}
 }
 #ux {
-	@include span-columns (4, 12);
+	margin: 0 auto;
+	@include at-breakpoint($medium) {
+		@include span-columns (4, 12);
+		}
 }
 #eval {
-	@include span-columns (4, 12);
+	margin: 0 auto;
+	@include at-breakpoint($medium) {
+		@include span-columns (4, 12);
+		}
 }
 #cloud {
-	@include span-columns (4 omega, 12);
+	margin: 0 auto;
+	@include at-breakpoint($medium) {
+		@include span-columns (4 omega, 12);
+		}
 }
 
+
+// Our services styles ----------------------------------------------
+
+#t1 {
+	margin: 0 auto;
+	img {
+		width: 80%;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns (3, 12);
+			img {
+				width: 100%;
+			}
+		}
+}
+#t2 {
+	margin: 0 auto;
+	img {
+		width: 80%;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns (3, 12);
+			img {
+				width: 100%;
+			}
+		}
+}
+
+#t3 {
+	margin: 0 auto;
+	img {
+		width: 80%;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns (3, 12);
+			img {
+				width: 100%;
+			}
+		}
+}
+#t4 {
+	margin: 0 auto;
+	img {
+		width: 80%;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns (3 omega, 12);
+			img {
+				width: 100%;
+			}
+		}
+}
+
+// Our work styles ----------------------------------------------
+
+.project {
+	img {
+		max-width: 100%;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns (6, 12);
+		}
+}
+.info {
+	h3 {
+		padding-bottom: .5em;
+	}
+	p {
+		font-size: .8rem;
+	}
+	@include at-breakpoint($medium) {
+		@include span-columns (6 omega, 12);
+		text-align: left;
+		padding-left: 2em;
+		}
+}
 
 //footer ------------------------------------------------------------
 footer {

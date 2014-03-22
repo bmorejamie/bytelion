@@ -45,7 +45,7 @@
             meanContract: "-", // single character you want to represent the contract for ULs
             meanRemoveAttrs: false, // true to remove classes and IDs, false to keep them
             onePage: true, // set to true for one page sites
-            removeElements: "" // set to hide page elements
+            removeElements: ".branding" // set to hide page elements
         };
         var options = $.extend(defaults, options);
         
