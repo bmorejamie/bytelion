@@ -288,11 +288,16 @@ header .navigation ul.nav li a:hover {
   background: url('../images/misc/bkg_concrete.jpg?1390424635');
 }
 
-/* line 106, ../components/sass/layout.scss */
+/* line 105, ../components/sass/layout.scss */
+#contact {
+  background: url('../images/misc/bkg_concrete-sand.jpg?1390426555');
+}
+
+/* line 109, ../components/sass/layout.scss */
 .left_main {
   text-align: center;
 }
-/* line 108, ../components/sass/layout.scss */
+/* line 111, ../components/sass/layout.scss */
 .left_main img {
   opacity: 0.2;
   filter: alpha(opacity=40);
@@ -302,14 +307,14 @@ header .navigation ul.nav li a:hover {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 106, ../components/sass/layout.scss */
+  /* line 109, ../components/sass/layout.scss */
   .left_main {
     width: 49.29577%;
     float: left;
     margin-right: 1.40845%;
     text-align: left;
   }
-  /* line 118, ../components/sass/layout.scss */
+  /* line 121, ../components/sass/layout.scss */
   .left_main img {
     opacity: 0.4;
     filter: alpha(opacity=40);
@@ -318,37 +323,37 @@ header .navigation ul.nav li a:hover {
   }
 }
 @media (min-width: 45em) and (min-width: 60em) {
-  /* line 118, ../components/sass/layout.scss */
+  /* line 121, ../components/sass/layout.scss */
   .left_main img {
     margin: 3em auto 0;
   }
 }
-/* line 128, ../components/sass/layout.scss */
+/* line 131, ../components/sass/layout.scss */
 .left_main h1 {
   padding-top: 0;
   margin-top: -3em;
 }
 @media (min-width: 45em) {
-  /* line 128, ../components/sass/layout.scss */
+  /* line 131, ../components/sass/layout.scss */
   .left_main h1 {
     padding-top: 1.4em;
     margin-top: 0;
   }
 }
-/* line 136, ../components/sass/layout.scss */
+/* line 139, ../components/sass/layout.scss */
 .left_main h2 {
   padding-top: 1.4em;
 }
-/* line 139, ../components/sass/layout.scss */
+/* line 142, ../components/sass/layout.scss */
 .left_main p {
   padding-left: .5em;
 }
 
-/* line 144, ../components/sass/layout.scss */
+/* line 147, ../components/sass/layout.scss */
 .right_main {
   text-align: center;
 }
-/* line 146, ../components/sass/layout.scss */
+/* line 149, ../components/sass/layout.scss */
 .right_main img {
   opacity: 0.2;
   filter: alpha(opacity=40);
@@ -358,14 +363,14 @@ header .navigation ul.nav li a:hover {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 144, ../components/sass/layout.scss */
+  /* line 147, ../components/sass/layout.scss */
   .right_main {
     width: 49.29577%;
     float: right;
     margin-right: 0;
     text-align: left;
   }
-  /* line 156, ../components/sass/layout.scss */
+  /* line 159, ../components/sass/layout.scss */
   .right_main img {
     opacity: 0.4;
     filter: alpha(opacity=40);
@@ -374,46 +379,46 @@ header .navigation ul.nav li a:hover {
   }
 }
 @media (min-width: 45em) and (min-width: 60em) {
-  /* line 156, ../components/sass/layout.scss */
+  /* line 159, ../components/sass/layout.scss */
   .right_main img {
     margin: 3em auto 0;
   }
 }
-/* line 166, ../components/sass/layout.scss */
+/* line 169, ../components/sass/layout.scss */
 .right_main h1 {
   padding-top: 0;
   margin-top: -3em;
 }
 @media (min-width: 45em) {
-  /* line 166, ../components/sass/layout.scss */
+  /* line 169, ../components/sass/layout.scss */
   .right_main h1 {
     padding-top: 1.4em;
     margin-top: 0;
   }
 }
-/* line 174, ../components/sass/layout.scss */
+/* line 177, ../components/sass/layout.scss */
 .right_main h2 {
   padding-top: 1.4em;
 }
-/* line 177, ../components/sass/layout.scss */
+/* line 180, ../components/sass/layout.scss */
 .right_main p {
   padding-left: .5em;
 }
 
-/* line 182, ../components/sass/layout.scss */
+/* line 185, ../components/sass/layout.scss */
 .pull-up {
   padding-top: 0;
   margin-top: -24em;
 }
 @media (min-width: 45em) {
-  /* line 182, ../components/sass/layout.scss */
+  /* line 185, ../components/sass/layout.scss */
   .pull-up {
     padding-top: 1.4em;
     margin-top: 0;
   }
 }
 
-/* line 191, ../components/sass/layout.scss */
+/* line 194, ../components/sass/layout.scss */
 .ad-space {
   padding-top: 4em;
   padding-bottom: 4em;
@@ -426,30 +431,30 @@ header .navigation ul.nav li a:hover {
   clear: both;
 }
 
-/* line 198, ../components/sass/layout.scss */
+/* line 201, ../components/sass/layout.scss */
 .left-head-wrap {
   padding: 0;
 }
 @media (min-width: 45em) {
-  /* line 198, ../components/sass/layout.scss */
+  /* line 201, ../components/sass/layout.scss */
   .left-head-wrap {
     padding-left: 2em;
   }
 }
 
-/* line 204, ../components/sass/layout.scss */
+/* line 207, ../components/sass/layout.scss */
 .right-head-wrap {
   padding-right: 2em;
 }
 
 @media (min-width: 60em) {
-  /* line 207, ../components/sass/layout.scss */
+  /* line 210, ../components/sass/layout.scss */
   img#lightbulb {
     margin-left: 2em;
   }
 }
 
-/* line 216, ../components/sass/layout.scss */
+/* line 219, ../components/sass/layout.scss */
 .scroll {
   margin: 0 auto;
   padding: 2em 0 .5em;
@@ -457,21 +462,21 @@ header .navigation ul.nav li a:hover {
   font-family: Amatic SC, sans-serif;
   font-size: 1.4rem;
 }
-/* line 222, ../components/sass/layout.scss */
+/* line 225, ../components/sass/layout.scss */
 .scroll p {
   margin-bottom: -5px;
 }
-/* line 225, ../components/sass/layout.scss */
+/* line 228, ../components/sass/layout.scss */
 .scroll a {
   text-decoration: none;
 }
 
-/* line 232, ../components/sass/layout.scss */
+/* line 235, ../components/sass/layout.scss */
 #services {
   background: url('../images/misc/bkg_concrete.jpg?1390424635');
 }
 
-/* line 235, ../components/sass/layout.scss */
+/* line 238, ../components/sass/layout.scss */
 .servicesimg {
   position: relative;
   display: block;
@@ -479,7 +484,7 @@ header .navigation ul.nav li a:hover {
   padding: 4em 0 1em;
 }
 
-/* line 242, ../components/sass/layout.scss */
+/* line 245, ../components/sass/layout.scss */
 .services_head {
   text-align: center;
   position: absolute;
@@ -488,18 +493,18 @@ header .navigation ul.nav li a:hover {
   width: 100%;
 }
 
-/* line 250, ../components/sass/layout.scss */
+/* line 253, ../components/sass/layout.scss */
 .services_list {
   text-align: center;
   padding-bottom: 4em;
 }
 
-/* line 255, ../components/sass/layout.scss */
+/* line 258, ../components/sass/layout.scss */
 #prototyping {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 255, ../components/sass/layout.scss */
+  /* line 258, ../components/sass/layout.scss */
   #prototyping {
     width: 32.39437%;
     float: left;
@@ -507,12 +512,12 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 261, ../components/sass/layout.scss */
+/* line 264, ../components/sass/layout.scss */
 #webapp {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 261, ../components/sass/layout.scss */
+  /* line 264, ../components/sass/layout.scss */
   #webapp {
     width: 32.39437%;
     float: left;
@@ -520,12 +525,12 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 267, ../components/sass/layout.scss */
+/* line 270, ../components/sass/layout.scss */
 #mobile {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 267, ../components/sass/layout.scss */
+  /* line 270, ../components/sass/layout.scss */
   #mobile {
     width: 32.39437%;
     float: right;
@@ -533,12 +538,12 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 273, ../components/sass/layout.scss */
+/* line 276, ../components/sass/layout.scss */
 #ux {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 273, ../components/sass/layout.scss */
+  /* line 276, ../components/sass/layout.scss */
   #ux {
     width: 32.39437%;
     float: left;
@@ -546,12 +551,12 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 279, ../components/sass/layout.scss */
+/* line 282, ../components/sass/layout.scss */
 #eval {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 279, ../components/sass/layout.scss */
+  /* line 282, ../components/sass/layout.scss */
   #eval {
     width: 32.39437%;
     float: left;
@@ -559,12 +564,12 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 285, ../components/sass/layout.scss */
+/* line 288, ../components/sass/layout.scss */
 #cloud {
   margin: 0 auto;
 }
 @media (min-width: 45em) {
-  /* line 285, ../components/sass/layout.scss */
+  /* line 288, ../components/sass/layout.scss */
   #cloud {
     width: 32.39437%;
     float: right;
@@ -572,96 +577,96 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 295, ../components/sass/layout.scss */
+/* line 298, ../components/sass/layout.scss */
 #t1 {
   margin: 0 auto;
 }
-/* line 297, ../components/sass/layout.scss */
+/* line 300, ../components/sass/layout.scss */
 #t1 img {
   width: 80%;
 }
 @media (min-width: 45em) {
-  /* line 295, ../components/sass/layout.scss */
+  /* line 298, ../components/sass/layout.scss */
   #t1 {
     width: 23.94366%;
     float: left;
     margin-right: 1.40845%;
   }
-  /* line 302, ../components/sass/layout.scss */
+  /* line 305, ../components/sass/layout.scss */
   #t1 img {
     width: 100%;
   }
 }
 
-/* line 307, ../components/sass/layout.scss */
+/* line 310, ../components/sass/layout.scss */
 #t2 {
   margin: 0 auto;
 }
-/* line 309, ../components/sass/layout.scss */
+/* line 312, ../components/sass/layout.scss */
 #t2 img {
   width: 80%;
 }
 @media (min-width: 45em) {
-  /* line 307, ../components/sass/layout.scss */
+  /* line 310, ../components/sass/layout.scss */
   #t2 {
     width: 23.94366%;
     float: left;
     margin-right: 1.40845%;
   }
-  /* line 314, ../components/sass/layout.scss */
+  /* line 317, ../components/sass/layout.scss */
   #t2 img {
     width: 100%;
   }
 }
 
-/* line 320, ../components/sass/layout.scss */
+/* line 323, ../components/sass/layout.scss */
 #t3 {
   margin: 0 auto;
 }
-/* line 322, ../components/sass/layout.scss */
+/* line 325, ../components/sass/layout.scss */
 #t3 img {
   width: 80%;
 }
 @media (min-width: 45em) {
-  /* line 320, ../components/sass/layout.scss */
+  /* line 323, ../components/sass/layout.scss */
   #t3 {
     width: 23.94366%;
     float: left;
     margin-right: 1.40845%;
   }
-  /* line 327, ../components/sass/layout.scss */
+  /* line 330, ../components/sass/layout.scss */
   #t3 img {
     width: 100%;
   }
 }
 
-/* line 332, ../components/sass/layout.scss */
+/* line 335, ../components/sass/layout.scss */
 #t4 {
   margin: 0 auto;
 }
-/* line 334, ../components/sass/layout.scss */
+/* line 337, ../components/sass/layout.scss */
 #t4 img {
   width: 80%;
 }
 @media (min-width: 45em) {
-  /* line 332, ../components/sass/layout.scss */
+  /* line 335, ../components/sass/layout.scss */
   #t4 {
     width: 23.94366%;
     float: right;
     margin-right: 0;
   }
-  /* line 339, ../components/sass/layout.scss */
+  /* line 342, ../components/sass/layout.scss */
   #t4 img {
     width: 100%;
   }
 }
 
-/* line 348, ../components/sass/layout.scss */
+/* line 351, ../components/sass/layout.scss */
 .project img {
   max-width: 100%;
 }
 @media (min-width: 45em) {
-  /* line 347, ../components/sass/layout.scss */
+  /* line 350, ../components/sass/layout.scss */
   .project {
     width: 49.29577%;
     float: left;
@@ -669,16 +674,16 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 356, ../components/sass/layout.scss */
+/* line 359, ../components/sass/layout.scss */
 .info h3 {
   padding-bottom: .5em;
 }
-/* line 359, ../components/sass/layout.scss */
+/* line 362, ../components/sass/layout.scss */
 .info p {
   font-size: .8rem;
 }
 @media (min-width: 45em) {
-  /* line 355, ../components/sass/layout.scss */
+  /* line 358, ../components/sass/layout.scss */
   .info {
     width: 49.29577%;
     float: right;
@@ -688,11 +693,122 @@ header .navigation ul.nav li a:hover {
   }
 }
 
-/* line 370, ../components/sass/layout.scss */
+@media (min-width: 45em) {
+  /* line 374, ../components/sass/layout.scss */
+  .contact-left {
+    width: 49.29577%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+}
+
+@media (min-width: 45em) {
+  /* line 380, ../components/sass/layout.scss */
+  .form {
+    width: 49.29577%;
+    float: right;
+    margin-right: 0;
+    text-align: left;
+    padding-left: 2em;
+  }
+}
+
+/* line 388, ../components/sass/layout.scss */
+#contact {
+  padding: 2em 0;
+}
+
+/* line 393, ../components/sass/layout.scss */
+input[type=text],
+input[type=email] {
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
+  background: rgba(26, 26, 26, 0.5);
+  border: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 402, ../components/sass/layout.scss */
+input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 405, ../components/sass/layout.scss */
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 408, ../components/sass/layout.scss */
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 411, ../components/sass/layout.scss */
+input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 415, ../components/sass/layout.scss */
+textarea {
+  width: 100%;
+  height: 180px;
+  padding: 10px 20px;
+  margin: 0 0 20px 0;
+  background: rgba(26, 26, 26, 0.5);
+  border: 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 423, ../components/sass/layout.scss */
+textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 426, ../components/sass/layout.scss */
+textarea:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* line 430, ../components/sass/layout.scss */
+input:focus, textarea:focus {
+  background: rgba(26, 26, 26, 0.7);
+}
+
+/* line 433, ../components/sass/layout.scss */
+#submit {
+  width: 30%;
+  padding: .5em 0;
+  background-color: rgba(255, 70, 0, 0.4);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  text-decoration: none;
+  cursor: poiner;
+  border: none;
+}
+
+/* line 447, ../components/sass/layout.scss */
+#submit:hover {
+  border: none;
+  background: rgba(255, 70, 0, 0.7);
+}
+
+/* line 454, ../components/sass/layout.scss */
 footer {
   color: white;
   background: #1a1a1a;
-  margin-top: 20px;
+  margin: 0px;
   padding-top: 20px;
   padding-bottom: 100px;
   max-height: 100%;

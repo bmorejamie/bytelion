@@ -102,6 +102,9 @@ header {
 #work {
 	background: image-url("misc/bkg_concrete.jpg");
 }
+#contact {
+	background: image-url("misc/bkg_concrete-sand.jpg");
+}
 
 .left_main {
 	text-align: center;
@@ -366,11 +369,92 @@ img#lightbulb {
 		}
 }
 
+// Contact styles ----------------------------------------------
+
+.contact-left {
+
+	@include at-breakpoint($medium) {
+		@include span-columns (6, 12);
+		}
+}
+.form {
+
+	@include at-breakpoint($medium) {
+		@include span-columns (6 omega, 12);
+		text-align: left;
+		padding-left: 2em;
+		}
+}
+#contact {
+	padding: 2em 0;
+}
+
+input[type=text],
+input[type=email], {
+	width: 100%; height: 40px; padding: 10px 20px; margin: 0 0 20px 0; 
+	background: rgba(26,26,26,.5);
+	border: 0;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+
+}
+input::-webkit-input-placeholder {
+   color: rgba(255,255,255,.5);
+}
+input:-moz-placeholder { /* Firefox 18- */
+   color: rgba(255,255,255,.5);
+}
+input::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(255,255,255,.5); 
+}
+input:-ms-input-placeholder {  
+   color: rgba(255,255,255,.5);
+}
+
+textarea {
+	width: 100%; height: 180px; padding: 10px 20px; margin: 0 0 20px 0; 
+	background: rgba(26,26,26,.5);
+	border: 0;
+	-moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+}
+textarea::-webkit-input-placeholder  {
+    	color:  rgba(255,255,255,.5); 
+	}
+textarea:-moz-placeholder {
+	    color:  rgba(255,255,255,.5);
+	}
+	
+input:focus, textarea:focus {
+	background: rgba(26,26,26,.7);
+  }
+#submit {
+	width: 30%;
+	padding: .5em 0;
+    background-color: rgba(255,70,0,.4); 
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+    color: #fff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-decoration: none;
+    cursor: poiner;
+    border:none;
+}
+#submit:hover {
+    border: none;
+    background: rgba(255,70,0,.7); 
+}
+
+
 //footer ------------------------------------------------------------
 footer {
 	color: $default;
 	background: $darkgray;
-	margin-top: 20px;
+	margin: 0px;
 	padding-top: 20px;
 	padding-bottom: 100px;
 	max-height: 100%;

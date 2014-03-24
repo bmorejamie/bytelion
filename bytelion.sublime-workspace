@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6975,
+				"buffer_size": 8801,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "components/sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 4393,
+				"buffer_size": 6114,
 				"line_ending": "Unix"
 			}
 		},
@@ -68,51 +68,11 @@
 			}
 		},
 		{
-			"file": "components/sass/variables.scss",
+			"file": "js/meanMenu/jquery.meanmenu.js",
 			"settings":
 			{
-				"buffer_size": 380,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "components/sass/mixins.scss",
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "components/sass/modules.scss",
-			"settings":
-			{
-				"buffer_size": 309,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "components/sass/styles.scss",
-			"settings":
-			{
-				"buffer_size": 152,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "gruntfile.js",
-			"settings":
-			{
-				"buffer_size": 764,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 222,
-				"line_ending": "Unix"
+				"buffer_size": 13293,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -160,6 +120,16 @@
 	},
 	"file_history":
 	[
+		"/Users/jamiejones/Sites/bytelion/components/sass/variables.scss",
+		"/Users/jamiejones/Sites/bytelion/components/sass/mixins.scss",
+		"/Users/jamiejones/Sites/bytelion/components/sass/styles.scss",
+		"/Users/jamiejones/Sites/bytelion/js/meanMenu/meanmenu.css",
+		"/Users/jamiejones/Sites/bytelion/js/meanMenu/jquery.meanmenu.js",
+		"/Users/jamiejones/Sites/bytelion/js/jquery.scrolldeck.js",
+		"/Users/jamiejones/Sites/bytelion/js/jquery.scrollorama.js",
+		"/Users/jamiejones/Sites/bytelion/components/sass/modules.scss",
+		"/Users/jamiejones/Sites/bytelion/package.json",
+		"/Users/jamiejones/Sites/bytelion/gruntfile.js",
 		"/private/etc/hosts",
 		"/private/etc/apache2/httpd.conf",
 		"/private/etc/apache2/extra/httpd-vhosts.conf",
@@ -169,11 +139,8 @@
 		"/Users/jamiejones/Desktop/original sass for bytelion(before screwing with responsive).scss",
 		"/Users/jamiejones/Desktop/hendrick.html",
 		"/Users/jamiejones/Sites/bytelion/config.rb",
-		"/Users/jamiejones/Sites/bytelion/components/sass/modules.scss",
 		"/Users/jamiejones/Sites/bytelion/css/styles.css",
-		"/Users/jamiejones/Sites/bytelion/gruntfile.js",
 		"/Users/jamiejones/Desktop/sassycompas/gruntfile.js",
-		"/Users/jamiejones/Sites/bytelion/package.json",
 		"/Users/jamiejones/Sites/bytelion/untitled",
 		"/Users/jamiejones/Sites/bytelion/index.html",
 		"/Users/jamiejones/Desktop/sassycompas/_/components/sass/styles.scss",
@@ -280,14 +247,7 @@
 		"/Users/jamiejones/Desktop/svg_tutorial-master/svg_shapes.html",
 		"/Users/jamiejones/Desktop/svg_tutorial-master/svg_polygon.html",
 		"/Users/jamiejones/Desktop/svg_tutorial-master/canvas.html",
-		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#2/home.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/wpbootstrap/page.php",
-		"/Users/jamiejones/Sites/jamie_jones_studios/bootstrap-bare/index-new.html",
-		"/Users/jamiejones/Sites/jamie_jones_studios/Dev-Fixed_width/moranbrochure.html",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/shape/search.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/shape/archive.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/template-blog.php",
-		"/Users/jamiejones/Sites/wordpress/wp-content/themes/workality/functions.php"
+		"/Users/jamiejones/Library/Caches/com.binarynights.ForkLift2/#2/home.php"
 	],
 	"find":
 	{
@@ -306,6 +266,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"solutions",
+			"services",
+			"meanMenuClose",
+			"removeElements",
 			"vhosts",
 			"log",
 			"left-head",
@@ -400,7 +364,7 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -408,15 +372,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 6975,
+						"buffer_size": 8801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5146,
-								5146
+								3028,
+								3002
 							]
 						],
 						"settings":
@@ -425,7 +389,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1990.0,
+						"translation.y": 293.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -435,15 +399,15 @@
 					"file": "components/sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 4393,
+						"buffer_size": 6114,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								972,
-								972
+								548,
+								548
 							]
 						],
 						"settings":
@@ -469,8 +433,8 @@
 						"selection":
 						[
 							[
-								885,
-								885
+								1096,
+								1096
 							]
 						],
 						"settings":
@@ -486,89 +450,10 @@
 				},
 				{
 					"buffer": 3,
-					"file": "components/sass/variables.scss",
+					"file": "js/meanMenu/jquery.meanmenu.js",
 					"settings":
 					{
-						"buffer_size": 380,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								380,
-								380
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "components/sass/mixins.scss",
-					"settings":
-					{
-						"buffer_size": 89,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "components/sass/modules.scss",
-					"settings":
-					{
-						"buffer_size": 309,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								251,
-								251
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "components/sass/styles.scss",
-					"settings":
-					{
-						"buffer_size": 152,
+						"buffer_size": 13293,
 						"regions":
 						{
 						},
@@ -577,64 +462,13 @@
 							[
 								0,
 								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "gruntfile.js",
-					"settings":
-					{
-						"buffer_size": 764,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								123,
-								123
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "package.json",
-					"settings":
-					{
-						"buffer_size": 222,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -705,6 +539,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 185.0,
+	"side_bar_width": 199.0,
 	"status_bar_visible": true
 }
