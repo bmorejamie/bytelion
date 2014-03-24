@@ -230,6 +230,29 @@ img#lightbulb {
 	}
 }
 
+// Triangle after section styles ----------------------------------------------
+
+.triangle-concrete {
+	background:url(../images/misc/concrete-tri.png) no-repeat;
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+}
+.triangle-dk-concrete {
+	background:url(../images/misc/concrete-dk-tri.png) no-repeat;
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+}
+.triangle-sand-concrete {
+	background:url(../images/misc/concrete-sand-tri.png) no-repeat;
+	width: 80px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+
+
 // Our services styles ----------------------------------------------
 
 #services {
@@ -385,7 +408,7 @@ img#lightbulb {
 		padding-left: 2em;
 		}
 }
-#contact {
+#contact .layout {
 	padding: 2em 0;
 }
 
@@ -453,14 +476,65 @@ input:focus, textarea:focus {
 //footer ------------------------------------------------------------
 footer {
 	color: $default;
-	background: $darkgray;
+	background: image-url("misc/bkg_concrete.jpg");
 	margin: 0px;
 	padding-top: 20px;
 	padding-bottom: 100px;
 	max-height: 100%;
 }
+.social {
+	height: 20px;
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+ul.social { 
+	list-style: none; 
+} 
+ul.social li { 
+	width: 29px; 
+	height: 29px; 
+	padding: 0;
+	margin-right: 2px; 
+	float: left; 
+} 
+ul.social li a { 
+	width: 29px; 
+	height: 29px; 
+	display: block; 
+	background: url(../images/misc/social-icons-sprite.png) no-repeat; 
+}
 
+ul.social li a.twitter {
+	background:url(../images/misc/social-icons-sprite.png) no-repeat 0 0;
+}
+ul.social a.twitter:hover {
+	background:url(../images/misc/social-icons-sprite.png) no-repeat 0 -29px;
+}
+ul.social a.fb {
+	background:url(../images/misc/social-icons-sprite.png) no-repeat -35px 0; 
+}
+ul.social a.fb:hover {
+	background:url(../images/misc/social-icons-sprite.png) no-repeat -35px -29px; 
+}
 
+ul.social a.lin {
+	background:url(../images/misc/social-icons-sprite.png) no-repeat -69px 0px; 
+}
+ul.social a.lin:hover {
+	background:url(../images/misc/social-icons-sprite.png) no-repeat -69px -29px; 
+}
+.footercopy {
+	@include clearfix;
+	font-size: .6em;
+	margin-top: 2em;
+	vertical-align: middle;
+	span, a {
+		color: gray;
+	}
+}
+.terms {
+	float: right;
+}
 
 
 
