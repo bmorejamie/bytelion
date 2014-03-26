@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 8801,
+				"buffer_size": 10556,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "components/sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 6114,
+				"buffer_size": 9585,
 				"line_ending": "Unix"
 			}
 		},
@@ -73,6 +73,33 @@
 			{
 				"buffer_size": 13293,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "components/sass/variables.scss",
+			"settings":
+			{
+				"buffer_size": 380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n/*\n// social media icons -----------------------------------------------------\n.socialmediaicons {\n		ul {\n		text-align: center;\n		li {\n			display: inline-block;\n			margin-left: 5px;\n			img {\n				width: 30px;\n				@include border-radius(50%);\n			} // img\n		} //li\n	} //ul\n} //socialmediaicons\n\n*/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+			"file": "components/sass/modules.scss",
+			"file_size": 309,
+			"file_write_time": 1390601151000000,
+			"settings":
+			{
+				"buffer_size": 313,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "components/sass/mixins.scss",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -120,8 +147,8 @@
 	},
 	"file_history":
 	[
-		"/Users/jamiejones/Sites/bytelion/components/sass/variables.scss",
 		"/Users/jamiejones/Sites/bytelion/components/sass/mixins.scss",
+		"/Users/jamiejones/Sites/bytelion/components/sass/variables.scss",
 		"/Users/jamiejones/Sites/bytelion/components/sass/styles.scss",
 		"/Users/jamiejones/Sites/bytelion/js/meanMenu/meanmenu.css",
 		"/Users/jamiejones/Sites/bytelion/js/meanMenu/jquery.meanmenu.js",
@@ -266,6 +293,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"p",
+			".social",
+			"social",
+			"img/social_sprite.png",
+			"social",
+			"aside",
+			"}\n",
+			"aside",
+			"twit",
+			"\">\n",
 			"solutions",
 			"services",
 			"meanMenuClose",
@@ -372,15 +409,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 8801,
+						"buffer_size": 10556,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3028,
-								3002
+								3173,
+								3173
 							]
 						],
 						"settings":
@@ -389,7 +426,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 293.0,
+						"translation.y": 535.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -399,15 +436,15 @@
 					"file": "components/sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 6114,
+						"buffer_size": 9585,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								548,
-								548
+								3609,
+								3609
 							]
 						],
 						"settings":
@@ -416,7 +453,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2649.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -469,6 +506,85 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "components/sass/variables.scss",
+					"settings":
+					{
+						"buffer_size": 380,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "components/sass/modules.scss",
+					"settings":
+					{
+						"buffer_size": 313,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								295,
+								295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "components/sass/mixins.scss",
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
