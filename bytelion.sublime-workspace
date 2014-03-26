@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10556,
+				"buffer_size": 10308,
 				"line_ending": "Unix"
 			}
 		},
@@ -293,6 +293,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slide",
 			"p",
 			".social",
 			"social",
@@ -409,15 +410,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10556,
+						"buffer_size": 10308,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3173,
-								3173
+								1731,
+								1731
 							]
 						],
 						"settings":
@@ -426,7 +427,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 535.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
