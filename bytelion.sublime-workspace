@@ -47,7 +47,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10308,
+				"buffer_size": 10421,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "components/sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 9585,
+				"buffer_size": 9787,
 				"line_ending": "Unix"
 			}
 		},
@@ -84,10 +84,7 @@
 			}
 		},
 		{
-			"contents": "\n/*\n// social media icons -----------------------------------------------------\n.socialmediaicons {\n		ul {\n		text-align: center;\n		li {\n			display: inline-block;\n			margin-left: 5px;\n			img {\n				width: 30px;\n				@include border-radius(50%);\n			} // img\n		} //li\n	} //ul\n} //socialmediaicons\n\n*/\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 			"file": "components/sass/modules.scss",
-			"file_size": 309,
-			"file_write_time": 1390601151000000,
 			"settings":
 			{
 				"buffer_size": 313,
@@ -99,6 +96,14 @@
 			"settings":
 			{
 				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scrolld.js",
+			"settings":
+			{
+				"buffer_size": 27152,
 				"line_ending": "Unix"
 			}
 		}
@@ -147,6 +152,8 @@
 	},
 	"file_history":
 	[
+		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/jamiejones/Sites/bytelion/components/sass/mixins.scss",
 		"/Users/jamiejones/Sites/bytelion/components/sass/variables.scss",
 		"/Users/jamiejones/Sites/bytelion/components/sass/styles.scss",
@@ -265,8 +272,6 @@
 		"/Users/jamiejones/Desktop/header.php",
 		"/Users/jamiejones/Desktop/sidebar_.php",
 		"/Users/jamiejones/Desktop/phptut.php",
-		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/jamiejones/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/jamiejones/Desktop/script.js",
 		"/Users/jamiejones/Desktop/page.html",
 		"/Users/jamiejones/Desktop/bootstrap-master/docs/base-css.html",
@@ -293,6 +298,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slide",
+			"secondary",
+			"clearfix",
 			"slide",
 			"p",
 			".social",
@@ -410,15 +418,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10308,
+						"buffer_size": 10421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1731,
-								1731
+								9239,
+								9239
 							]
 						],
 						"settings":
@@ -427,7 +435,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2657.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -437,15 +445,15 @@
 					"file": "components/sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 9585,
+						"buffer_size": 9787,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3609,
-								3609
+								8725,
+								8725
 							]
 						],
 						"settings":
@@ -454,7 +462,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2649.0,
+						"translation.y": 7160.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -526,8 +534,8 @@
 						"selection":
 						[
 							[
-								380,
-								380
+								173,
+								160
 							]
 						],
 						"settings":
@@ -586,6 +594,34 @@
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/scrolld.js",
+					"settings":
+					{
+						"buffer_size": 27152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								423,
+								423
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -733,30 +733,41 @@ header .navigation ul.nav li a:hover {
     margin-right: 1.40845%;
   }
 }
+/* line 407, ../components/sass/layout.scss */
+.contact-left h2 {
+  margin-bottom: .4em;
+}
+/* line 410, ../components/sass/layout.scss */
+.contact-left p {
+  margin-right: 1em;
+}
 
 @media (min-width: 45em) {
-  /* line 409, ../components/sass/layout.scss */
+  /* line 414, ../components/sass/layout.scss */
   .form {
     width: 49.29577%;
     float: right;
     margin-right: 0;
     text-align: left;
-    padding-left: 2em;
   }
 }
 
-/* line 417, ../components/sass/layout.scss */
-#contact .layout {
-  padding: 2em 0;
+/* line 420, ../components/sass/layout.scss */
+.contact-wrap {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-/* line 422, ../components/sass/layout.scss */
+/* line 428, ../components/sass/layout.scss */
 input[type=text],
 input[type=email] {
   width: 100%;
   height: 40px;
   padding: 10px 20px;
   margin: 0 0 20px 0;
+  color: #5c5c5d;
+  font-family: Libre Baskerville, serif;
+  font-size: 1em;
   background: rgba(26, 26, 26, 0.5);
   border: 0;
   -moz-border-radius: 2px;
@@ -764,34 +775,37 @@ input[type=email] {
   border-radius: 2px;
 }
 
-/* line 431, ../components/sass/layout.scss */
+/* line 440, ../components/sass/layout.scss */
 input::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 434, ../components/sass/layout.scss */
+/* line 443, ../components/sass/layout.scss */
 input:-moz-placeholder {
   /* Firefox 18- */
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 437, ../components/sass/layout.scss */
+/* line 446, ../components/sass/layout.scss */
 input::-moz-placeholder {
   /* Firefox 19+ */
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 440, ../components/sass/layout.scss */
+/* line 449, ../components/sass/layout.scss */
 input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 444, ../components/sass/layout.scss */
+/* line 453, ../components/sass/layout.scss */
 textarea {
   width: 100%;
   height: 180px;
   padding: 10px 20px;
   margin: 0 0 20px 0;
+  color: #5c5c5d;
+  font-family: Libre Baskerville, serif;
+  font-size: 1em;
   background: rgba(26, 26, 26, 0.5);
   border: 0;
   -moz-border-radius: 2px;
@@ -799,22 +813,22 @@ textarea {
   border-radius: 2px;
 }
 
-/* line 452, ../components/sass/layout.scss */
+/* line 464, ../components/sass/layout.scss */
 textarea::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 455, ../components/sass/layout.scss */
-textarea:-moz-placeholder {
+/* line 467, ../components/sass/layout.scss */
+textarea::-moz-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* line 459, ../components/sass/layout.scss */
+/* line 471, ../components/sass/layout.scss */
 input:focus, textarea:focus {
   background: rgba(26, 26, 26, 0.7);
 }
 
-/* line 462, ../components/sass/layout.scss */
+/* line 474, ../components/sass/layout.scss */
 #submit {
   width: 30%;
   padding: .5em 0;
@@ -823,20 +837,20 @@ input:focus, textarea:focus {
   -webkit-border-radius: 2px;
   border-radius: 2px;
   color: #fff;
-  font-family: 'Oswald';
-  font-size: 20px;
+  font-family: Amatic SC, sans-serif;
+  font-size: 1.8em;
   text-decoration: none;
   cursor: poiner;
   border: none;
 }
 
-/* line 476, ../components/sass/layout.scss */
+/* line 488, ../components/sass/layout.scss */
 #submit:hover {
   border: none;
   background: rgba(255, 70, 0, 0.7);
 }
 
-/* line 483, ../components/sass/layout.scss */
+/* line 495, ../components/sass/layout.scss */
 footer {
   color: white;
   background: url('../images/misc/bkg_concrete.jpg?1390424635');
@@ -846,7 +860,7 @@ footer {
   max-height: 100%;
 }
 
-/* line 491, ../components/sass/layout.scss */
+/* line 503, ../components/sass/layout.scss */
 .social {
   height: 20px;
   display: table;
@@ -854,12 +868,12 @@ footer {
   margin: 0 auto;
 }
 
-/* line 496, ../components/sass/layout.scss */
+/* line 508, ../components/sass/layout.scss */
 ul.social {
   list-style: none;
 }
 
-/* line 499, ../components/sass/layout.scss */
+/* line 511, ../components/sass/layout.scss */
 ul.social li {
   width: 29px;
   height: 29px;
@@ -868,7 +882,7 @@ ul.social li {
   float: left;
 }
 
-/* line 506, ../components/sass/layout.scss */
+/* line 518, ../components/sass/layout.scss */
 ul.social li a {
   width: 29px;
   height: 29px;
@@ -876,37 +890,37 @@ ul.social li a {
   background: url(../images/misc/social-icons-sprite.png) no-repeat;
 }
 
-/* line 513, ../components/sass/layout.scss */
+/* line 525, ../components/sass/layout.scss */
 ul.social li a.twitter {
   background: url(../images/misc/social-icons-sprite.png) no-repeat 0 0;
 }
 
-/* line 516, ../components/sass/layout.scss */
+/* line 528, ../components/sass/layout.scss */
 ul.social a.twitter:hover {
   background: url(../images/misc/social-icons-sprite.png) no-repeat 0 -29px;
 }
 
-/* line 519, ../components/sass/layout.scss */
+/* line 531, ../components/sass/layout.scss */
 ul.social a.fb {
   background: url(../images/misc/social-icons-sprite.png) no-repeat -35px 0;
 }
 
-/* line 522, ../components/sass/layout.scss */
+/* line 534, ../components/sass/layout.scss */
 ul.social a.fb:hover {
   background: url(../images/misc/social-icons-sprite.png) no-repeat -35px -29px;
 }
 
-/* line 526, ../components/sass/layout.scss */
+/* line 538, ../components/sass/layout.scss */
 ul.social a.lin {
   background: url(../images/misc/social-icons-sprite.png) no-repeat -69px 0px;
 }
 
-/* line 529, ../components/sass/layout.scss */
+/* line 541, ../components/sass/layout.scss */
 ul.social a.lin:hover {
   background: url(../images/misc/social-icons-sprite.png) no-repeat -69px -29px;
 }
 
-/* line 532, ../components/sass/layout.scss */
+/* line 544, ../components/sass/layout.scss */
 .footercopy {
   font-size: .6em;
   margin-top: 2em;
@@ -918,31 +932,12 @@ ul.social a.lin:hover {
   display: table;
   clear: both;
 }
-/* line 537, ../components/sass/layout.scss */
+/* line 549, ../components/sass/layout.scss */
 .footercopy span, .footercopy a {
   color: gray;
 }
 
-/* line 541, ../components/sass/layout.scss */
+/* line 553, ../components/sass/layout.scss */
 .terms {
   float: right;
-}
-
-/* line 5, ../components/sass/modules.scss */
-.socialmediaicons ul {
-  text-align: center;
-}
-/* line 7, ../components/sass/modules.scss */
-.socialmediaicons ul li {
-  display: inline-block;
-  margin-left: 5px;
-}
-/* line 10, ../components/sass/modules.scss */
-.socialmediaicons ul li img {
-  width: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
 }
