@@ -10,6 +10,9 @@ body {
 	background: $lightgray image-url("misc/bkg_concrete-grey.jpg");
 	color: $default;
 }
+body.blog {
+	background: image-url("misc/bkg_concrete.jpg");
+}
 
 
 

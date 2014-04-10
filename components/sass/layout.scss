@@ -555,4 +555,105 @@ ul.social a.lin:hover {
 }
 
 
+// ----------------- Blog -------------------------------
 
+.blog-wrap {
+	margin-top: 8em;
+	@include clearfix;
+}
+.post-wrap {
+	margin-bottom: 1.5em;
+}
+.blog-main {
+	padding-right: 4em;
+		@include at-breakpoint($medium) {
+		@include span-columns(8, 12);
+	}
+}
+.post-title {
+	display: block;
+	color: $green;
+	text-decoration: none;
+	font-family: $font-primary;
+	font-size: 1.5em;
+	font-style: normal;
+	padding-bottom: .6em;
+	&:hover {
+		color: $green-light;
+	}
+}
+.sidebar {
+		@include at-breakpoint($medium) {
+		@include span-columns(4 omega, 12);
+		h3 {
+			font-family: $font-primary;
+			font-size: 1.5em;
+			font-style: normal;
+			padding: 0 0 .2em;
+			margin: 0 0 .8em;
+		}
+		ul {
+			font-size: .8em;
+		}
+		ul>li {
+			margin-bottom: .8em;
+		}
+		ul>li>a {
+			color: #B3B3B3;
+			text-decoration: none;
+			@include single-transition(all, .25s, ease-out);
+					text-decoration: none;
+					&:hover {
+					color: $green;
+					}
+		}
+	}
+}
+.posted {
+	font-family: $font-primary;
+	font-size: .7em;
+	font-style: italic;
+	color: $orange;
+	margin-bottom: 2em;
+}
+.post {
+	font-family: $font-primary;
+	font-style: normal;
+	font-size: .8em;
+	color: #fff;
+}
+
+.button-more {
+	display: block;
+	width: 130px;
+	padding: .5em 0;
+    background-color: rgba(255,70,0,.4); 
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius:2px;
+    color: #fff;
+    font-family: $font-nav;
+    font-size: 1.8em;
+    text-decoration: none;
+    cursor: poiner;
+    border:none;
+    text-align: center;
+    margin: 1em 0;
+}
+.button-more:hover {
+	color: #fff;
+    border: none;
+    background: rgba(255,70,0,.7); 
+}
+.post-divider {
+	background: url(../images/misc/blog-divider.png) no-repeat; 
+	background-size: 100%;
+	height: 4px;
+}
+
+.footer-divider {
+	background: url(../images/misc/footer-div.png) no-repeat; 
+	background-size: 100%;
+	height: 6px;
+	margin-bottom: 1em;
+}

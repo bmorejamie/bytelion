@@ -2,8 +2,10 @@ $default 		: #FFFFFF;
 $green          : #C4E86B;
 $lightgray      : #5C5C5D;
 $darkgray       : #1A1A1A;
-$orange         : #FF4C00v;
+$orange         : #FF4C00;
 $cyan           : #259286;
+
+$green-light: lighten($green, 10%);
 
 
 $font-primary: Libre Baskerville, serif;

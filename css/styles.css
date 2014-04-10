@@ -76,7 +76,12 @@ body {
   color: white;
 }
 
-/* line 16, ../components/sass/base.scss */
+/* line 13, ../components/sass/base.scss */
+body.blog {
+  background: url('../images/misc/bkg_concrete.jpg?1390424635');
+}
+
+/* line 19, ../components/sass/base.scss */
 h1 {
   font-family: Libre Baskerville, serif;
   font-style: italic;
@@ -87,7 +92,7 @@ h1 {
   padding-top: 20px;
 }
 
-/* line 26, ../components/sass/base.scss */
+/* line 29, ../components/sass/base.scss */
 h2 {
   font-family: Libre Baskerville, serif;
   font-style: italic;
@@ -98,7 +103,7 @@ h2 {
   margin-bottom: .6rem;
 }
 
-/* line 36, ../components/sass/base.scss */
+/* line 39, ../components/sass/base.scss */
 h3 {
   font-family: Libre Baskerville, serif;
   font-style: italic;
@@ -108,30 +113,30 @@ h3 {
   padding: 1em 0 4em;
 }
 
-/* line 45, ../components/sass/base.scss */
+/* line 48, ../components/sass/base.scss */
 a {
   text-decoration: underline;
   color: white;
 }
-/* line 48, ../components/sass/base.scss */
+/* line 51, ../components/sass/base.scss */
 a:hover {
-  color: #ff4c00 v;
+  color: #ff4c00;
 }
 
-/* line 53, ../components/sass/base.scss */
+/* line 56, ../components/sass/base.scss */
 p {
   line-height: 180%;
   margin-bottom: 10px;
   font-weight: 400;
 }
 
-/* line 59, ../components/sass/base.scss */
+/* line 62, ../components/sass/base.scss */
 .nav {
   font-family: Amatic SC, sans-serif;
   font-size: 1.4rem;
 }
 
-/* line 64, ../components/sass/base.scss */
+/* line 67, ../components/sass/base.scss */
 .introhead {
   font-family: Lato, sans-serif;
   font-style: normal;
@@ -186,7 +191,7 @@ p {
   /* line 36, ../components/sass/layout.scss */
   .secondary h1 {
     font-size: 1.8rem;
-    color: #ff4c00 v;
+    color: #ff4c00;
   }
 }
 
@@ -940,4 +945,145 @@ ul.social a.lin:hover {
 /* line 553, ../components/sass/layout.scss */
 .terms {
   float: right;
+}
+
+/* line 560, ../components/sass/layout.scss */
+.blog-wrap {
+  margin-top: 8em;
+}
+/* line 2, ../components/sass/mixins.scss */
+.blog-wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 564, ../components/sass/layout.scss */
+.post-wrap {
+  margin-bottom: 1.5em;
+}
+
+/* line 567, ../components/sass/layout.scss */
+.blog-main {
+  padding-right: 4em;
+}
+@media (min-width: 45em) {
+  /* line 567, ../components/sass/layout.scss */
+  .blog-main {
+    width: 66.19718%;
+    float: left;
+    margin-right: 1.40845%;
+  }
+}
+
+/* line 573, ../components/sass/layout.scss */
+.post-title {
+  display: block;
+  color: #c4e86b;
+  text-decoration: none;
+  font-family: Libre Baskerville, serif;
+  font-size: 1.5em;
+  font-style: normal;
+  padding-bottom: .6em;
+}
+/* line 581, ../components/sass/layout.scss */
+.post-title:hover {
+  color: #d6ef97;
+}
+
+@media (min-width: 45em) {
+  /* line 585, ../components/sass/layout.scss */
+  .sidebar {
+    width: 32.39437%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 588, ../components/sass/layout.scss */
+  .sidebar h3 {
+    font-family: Libre Baskerville, serif;
+    font-size: 1.5em;
+    font-style: normal;
+    padding: 0 0 .2em;
+    margin: 0 0 .8em;
+  }
+  /* line 595, ../components/sass/layout.scss */
+  .sidebar ul {
+    font-size: .8em;
+  }
+  /* line 598, ../components/sass/layout.scss */
+  .sidebar ul > li {
+    margin-bottom: .8em;
+  }
+  /* line 601, ../components/sass/layout.scss */
+  .sidebar ul > li > a {
+    color: #B3B3B3;
+    text-decoration: none;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    text-decoration: none;
+  }
+  /* line 606, ../components/sass/layout.scss */
+  .sidebar ul > li > a:hover {
+    color: #c4e86b;
+  }
+}
+
+/* line 612, ../components/sass/layout.scss */
+.posted {
+  font-family: Libre Baskerville, serif;
+  font-size: .7em;
+  font-style: italic;
+  color: #ff4c00;
+  margin-bottom: 2em;
+}
+
+/* line 619, ../components/sass/layout.scss */
+.post {
+  font-family: Libre Baskerville, serif;
+  font-style: normal;
+  font-size: .8em;
+  color: #fff;
+}
+
+/* line 626, ../components/sass/layout.scss */
+.button-more {
+  display: block;
+  width: 130px;
+  padding: .5em 0;
+  background-color: rgba(255, 70, 0, 0.4);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  color: #fff;
+  font-family: Amatic SC, sans-serif;
+  font-size: 1.8em;
+  text-decoration: none;
+  cursor: poiner;
+  border: none;
+  text-align: center;
+  margin: 1em 0;
+}
+
+/* line 643, ../components/sass/layout.scss */
+.button-more:hover {
+  color: #fff;
+  border: none;
+  background: rgba(255, 70, 0, 0.7);
+}
+
+/* line 648, ../components/sass/layout.scss */
+.post-divider {
+  background: url(../images/misc/blog-divider.png) no-repeat;
+  background-size: 100%;
+  height: 4px;
+}
+
+/* line 654, ../components/sass/layout.scss */
+.footer-divider {
+  background: url(../images/misc/footer-div.png) no-repeat;
+  background-size: 100%;
+  height: 6px;
+  margin-bottom: 1em;
 }
