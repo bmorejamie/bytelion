@@ -991,6 +991,36 @@ ul.social a.lin:hover {
   color: #d6ef97;
 }
 
+/* line 586, ../components/sass/layout.scss */
+.sidebar h3 {
+  font-family: Libre Baskerville, serif;
+  font-size: 1.5em;
+  font-style: normal;
+  padding: 0 0 .2em;
+  margin: 0 0 .8em;
+}
+/* line 593, ../components/sass/layout.scss */
+.sidebar ul {
+  font-size: .8em;
+}
+/* line 596, ../components/sass/layout.scss */
+.sidebar ul > li {
+  margin-bottom: .8em;
+}
+/* line 599, ../components/sass/layout.scss */
+.sidebar ul > li > a {
+  color: #B3B3B3;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-out;
+  -moz-transition: all 0.25s ease-out;
+  -o-transition: all 0.25s ease-out;
+  transition: all 0.25s ease-out;
+  text-decoration: none;
+}
+/* line 604, ../components/sass/layout.scss */
+.sidebar ul > li > a:hover {
+  color: #c4e86b;
+}
 @media (min-width: 45em) {
   /* line 585, ../components/sass/layout.scss */
   .sidebar {
@@ -998,39 +1028,9 @@ ul.social a.lin:hover {
     float: right;
     margin-right: 0;
   }
-  /* line 588, ../components/sass/layout.scss */
-  .sidebar h3 {
-    font-family: Libre Baskerville, serif;
-    font-size: 1.5em;
-    font-style: normal;
-    padding: 0 0 .2em;
-    margin: 0 0 .8em;
-  }
-  /* line 595, ../components/sass/layout.scss */
-  .sidebar ul {
-    font-size: .8em;
-  }
-  /* line 598, ../components/sass/layout.scss */
-  .sidebar ul > li {
-    margin-bottom: .8em;
-  }
-  /* line 601, ../components/sass/layout.scss */
-  .sidebar ul > li > a {
-    color: #B3B3B3;
-    text-decoration: none;
-    -webkit-transition: all 0.25s ease-out;
-    -moz-transition: all 0.25s ease-out;
-    -o-transition: all 0.25s ease-out;
-    transition: all 0.25s ease-out;
-    text-decoration: none;
-  }
-  /* line 606, ../components/sass/layout.scss */
-  .sidebar ul > li > a:hover {
-    color: #c4e86b;
-  }
 }
 
-/* line 612, ../components/sass/layout.scss */
+/* line 614, ../components/sass/layout.scss */
 .posted {
   font-family: Libre Baskerville, serif;
   font-size: .7em;
@@ -1039,7 +1039,7 @@ ul.social a.lin:hover {
   margin-bottom: 2em;
 }
 
-/* line 619, ../components/sass/layout.scss */
+/* line 621, ../components/sass/layout.scss */
 .post {
   font-family: Libre Baskerville, serif;
   font-style: normal;
@@ -1047,7 +1047,7 @@ ul.social a.lin:hover {
   color: #fff;
 }
 
-/* line 626, ../components/sass/layout.scss */
+/* line 628, ../components/sass/layout.scss */
 .button-more {
   display: block;
   width: 130px;
@@ -1066,21 +1066,21 @@ ul.social a.lin:hover {
   margin: 1em 0;
 }
 
-/* line 643, ../components/sass/layout.scss */
+/* line 645, ../components/sass/layout.scss */
 .button-more:hover {
   color: #fff;
   border: none;
   background: rgba(255, 70, 0, 0.7);
 }
 
-/* line 648, ../components/sass/layout.scss */
+/* line 650, ../components/sass/layout.scss */
 .post-divider {
   background: url(../images/misc/blog-divider.png) no-repeat;
   background-size: 100%;
   height: 4px;
 }
 
-/* line 654, ../components/sass/layout.scss */
+/* line 656, ../components/sass/layout.scss */
 .footer-divider {
   background: url(../images/misc/footer-div.png) no-repeat;
   background-size: 100%;

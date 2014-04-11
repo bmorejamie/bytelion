@@ -47,7 +47,7 @@
 			"file": "blog.html",
 			"settings":
 			{
-				"buffer_size": 3330,
+				"buffer_size": 3999,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +55,7 @@
 			"file": "components/sass/layout.scss",
 			"settings":
 			{
-				"buffer_size": 11416,
+				"buffer_size": 11643,
 				"line_ending": "Unix"
 			}
 		},
@@ -63,7 +63,7 @@
 			"file": "components/sass/base.scss",
 			"settings":
 			{
-				"buffer_size": 1263,
+				"buffer_size": 1326,
 				"line_ending": "Unix"
 			}
 		},
@@ -71,7 +71,7 @@
 			"file": "components/sass/variables.scss",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 416,
 				"line_ending": "Unix"
 			}
 		},
@@ -290,6 +290,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"html",
+			"body",
 			"slide",
 			"secondary",
 			"clearfix",
@@ -402,7 +404,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -410,15 +412,15 @@
 					"file": "blog.html",
 					"settings":
 					{
-						"buffer_size": 3330,
+						"buffer_size": 3999,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1800,
-								1800
+								2781,
+								2779
 							]
 						],
 						"settings":
@@ -427,7 +429,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 267.0,
+						"translation.y": 305.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -437,15 +439,15 @@
 					"file": "components/sass/layout.scss",
 					"settings":
 					{
-						"buffer_size": 11416,
+						"buffer_size": 11643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11269,
-								11269
+								11314,
+								11314
 							]
 						],
 						"settings":
@@ -454,7 +456,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8945.0,
+						"translation.y": 8771.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -464,15 +466,15 @@
 					"file": "components/sass/base.scss",
 					"settings":
 					{
-						"buffer_size": 1263,
+						"buffer_size": 1326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1096,
-								1096
+								560,
+								560
 							]
 						],
 						"settings":
@@ -491,15 +493,15 @@
 					"file": "components/sass/variables.scss",
 					"settings":
 					{
-						"buffer_size": 379,
+						"buffer_size": 416,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								156,
-								156
+								170,
+								158
 							]
 						],
 						"settings":

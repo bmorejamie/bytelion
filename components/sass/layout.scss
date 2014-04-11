@@ -583,9 +583,7 @@ ul.social a.lin:hover {
 	}
 }
 .sidebar {
-		@include at-breakpoint($medium) {
-		@include span-columns(4 omega, 12);
-		h3 {
+	h3 {
 			font-family: $font-primary;
 			font-size: 1.5em;
 			font-style: normal;
@@ -606,9 +604,13 @@ ul.social a.lin:hover {
 					&:hover {
 					color: $green;
 					}
+			}
+		@include at-breakpoint($medium) {
+		@include span-columns(4 omega, 12);
+		
 		}
 	}
-}
+
 .posted {
 	font-family: $font-primary;
 	font-size: .7em;
